@@ -1,20 +1,13 @@
-{% load static %}
+{% extends 'blog/base.html' %}
 
-<html>
-    <head>
-        <title>Blog Django</title>
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-    </head>
-    <body>
-        <div>
-            <h1><a href="/">Blog Django</a></h1>
-        </div>
-        {% for post in posts %}
-        <div>
-            <p>published: {{ post.published_date }}</p>
-            <h2><a href="">{{ post.title }}</a></h2>
+{% block content %}
+    {% for post in posts %}
+        <div class="post">
+            <div class="date">
+                {{ post.published_date }}
+            </div>
+            <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
             <p>{{ post.text|linebreaksbr }}</p>
         </div>
-        {% endfor %}
-    </body>
-</html>
+    {% endfor %}
+{% endblock %}
