@@ -51,3 +51,23 @@ h1, h2, h3, h4 {
     margin: 20px 0px 20px 20px;
 }
 
+#vote-section{
+    display: flex;
+    height: auto;
+    width: 110px;
+    justify-content: space-between;
+    align-items: left;
+}
+
+#vote-section>div{
+    text-align: center;
+    font-weight: bold;
+}
+
+#vote-section>div img{
+    margin-bottom: 5px;
+}
+
+#dislikeButton{
+    transform: rotate(180deg);
+}

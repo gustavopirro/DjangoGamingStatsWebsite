@@ -10,18 +10,15 @@
     </div>
     {% endif %}
     <p>{{ post.text |linebreaksbr }}</p>
-    <div class="vote-section"
-        style="display: flex; height: auto; width: 110px; justify-content: space-between; align-items: center;">
-        <div style="text-align: center; font-weight: bold;">
+    <div id="vote-section">
+        <div>
             <a href="{% url 'add_reaction' pk=post.pk reaction_type='like' %}"><img
-                    src="https://rerollcdn.com/GENSHIN/Skills/2021/Fantastic_Voyage.png"
-                    style="margin-bottom: 10px;"></a>
+                    src="https://rerollcdn.com/GENSHIN/Skills/2021/Fantastic_Voyage.png"></a>
             <p>{{ post.likeCount }}</p>
         </div>
-        <div style="text-align: center; font-weight: bold;">
+        <div>
             <a href="{% url 'add_reaction' pk=post.pk reaction_type='dislike' %}">
-                <img src="https://rerollcdn.com/GENSHIN/Skills/2021/Fantastic_Voyage.png"
-                    style="transform: rotate(180deg); margin-bottom: 10px;">
+                <img id="dislikeButton" src="https://rerollcdn.com/GENSHIN/Skills/2021/Fantastic_Voyage.png">
             </a>
             <p>{{ post.dislikeCount }}</p>
         </div>
