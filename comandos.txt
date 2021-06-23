@@ -1,6 +1,6 @@
 myvenv/Scripts/Activate - start virtual ambient
 django-admin.exe startproject mysite - create project
-python3 manage.py migrate - create database
+python3 manage.py migrate - create/update database
 python3 manage.py runserver - run server
 python3 manage.py startapp blog - create 'blog' application
 python3 manage.py createsuperuser - create super user
