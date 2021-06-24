@@ -22,12 +22,14 @@
             <a href="{% url 'add_reaction' pk=post.pk reaction_type='like' %}"><img
                     src="https://rerollcdn.com/GENSHIN/Skills/2021/Fantastic_Voyage.png"></a>
             <p>{{ post.likeCount }}</p>
+            <p>{{post.like_percentage}}%</p> 
         </div>
         <div>
             <a href="{% url 'add_reaction' pk=post.pk reaction_type='dislike' %}">
                 <img id="dislikeButton" src="https://rerollcdn.com/GENSHIN/Skills/2021/Fantastic_Voyage.png">
             </a>
-            <p>{{ post.dislikeCount }}</p>
+            <p>{{ post.dislikeCount }}</p>  
+            <p>{{post.dislike_percentage}}%</p>
         </div>
     </div>
     <hr>

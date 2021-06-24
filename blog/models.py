@@ -13,6 +13,12 @@ class Post(models.Model):
     likeCount = models.IntegerField(default=0)
     dislikeCount = models.IntegerField(default=0)
 
+    def like_percentage(self):
+        return (self.likeCount / self.totalReactions) * 100
+    
+    def dislike_percentage(self):
+        return (self.dislikeCount / self.totalReactions) * 100
+
     def publish(self):
         self.published_date = timezone.now()
         self.save()
@@ -39,6 +45,6 @@ class Comment(models.Model):
 
 class PostReaction(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    post = models.ForeignKey('blog.Post', on_delete=models.CASCADE)
+    post = models.ForeignKey('blog.Post', on_delete=models.CASCADE, related_name="post_reactions")
     created_date = models.DateTimeField(auto_now=True)
     reaction_type = models.CharField(max_length=20)
