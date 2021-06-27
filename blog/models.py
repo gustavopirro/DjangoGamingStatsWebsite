@@ -14,9 +14,13 @@ class Post(models.Model):
     dislikeCount = models.IntegerField(default=0)
 
     def like_percentage(self):
+        if self.totalReactions == 0:
+            return 0
         return (self.likeCount / self.totalReactions) * 100
     
     def dislike_percentage(self):
+        if self.totalReactions == 0:
+            return 0
         return (self.dislikeCount / self.totalReactions) * 100
 
     def publish(self):
