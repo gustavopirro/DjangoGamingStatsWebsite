@@ -1,8 +1,13 @@
+.btn-secondary{
+    background-color: #212529;
+}
 
 .page-header {
-    background-color: #C25100;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+    background-color: #212529;
+    border-bottom: #36384A solid 2px;
+    
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -16,7 +21,7 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .date {
@@ -76,4 +81,16 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+body{
+    background-color: #1D1F29;
+}
+
+.table{
+    background-color: #222431;
+}
+
+button{
+    background-color: #222431;
 }

@@ -1,0 +1,50 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div id="filters" class="d-flex justify-content-between">
+    <a href="{% url 'champion_stats'%}"><button type="button" class="btn btn-secondary">All</button></a>
+    <a href="{% url 'champion_stats' sort_type='Winrate' class_filter='Damage'%}"><button type="button"
+            class="btn btn-secondary">Damage</button></a>
+    <a href="{% url 'champion_stats' sort_type='Winrate' class_filter='Frontline'%}"><button type="button"
+            class="btn btn-secondary">Frontline</button></a>
+    <a href="{% url 'champion_stats' sort_type='Winrate' class_filter='Flank'%}"><button type="button"
+            class="btn btn-secondary">Flank</button></a>
+    <a href="{% url 'champion_stats' sort_type='Winrate' class_filter='Support'%}"><button type="button"
+            class="btn btn-secondary">Support</button></a>
+    <a href="{% url 'champion_stats' sort_type='Match_Count' class_filter='All'%}"><button type="button"
+            class="btn btn-secondary">Match Count</button></a>
+    <a href="{% url 'champion_stats' sort_type='Winrate' class_filter='All'%}"><button type="button"
+            class="btn btn-secondary">Winrate</button></a>
+    <a href="{% url 'champion_stats' sort_type='Alfabetic' class_filter='All'%}"><button type="button"
+            class="btn btn-secondary">Alfabetic</button></a>
+</div>
+<table class="table table-hover table-dark mt-4 shadow border border-dark rounded">
+    <thead class="thead-dark">
+        <tr>
+            <th>Class</th>
+            <th>Champion</th>
+            <th>Winrate</th>
+            <th>Talent</th>
+            <th>Match Count</th>
+        </tr>
+    </thead>
+    {% if champion_stats %}
+    {% for i in champion_stats %}
+    <tr class="border-light text-justify">
+        <td class="text-justify"><img class="rounded-circle" style="width:30px;height: 30px;"
+                src="https://static.wikia.nocookie.net/paladins_gamepedia/images/c/cc/Class_Damage_Icon.png/revision/latest/scale-to-width-down/32?cb=20180320020552"
+                alt="" srcset=""></td>
+        <td class="text-justify"><img class="rounded-circle" style="width: 30px; height: 30px; margin-right: 10px;"
+                src="https://paladinsdecks.com/fileadmin/paladins/_processed_/e/4/csm_2093_4d78d0f2cf.jpg">{{i.Champion}}
+        </td>
+        <td class="text-justify">{{i.Winrate}}</td>
+        <td class="text-justify">{{i.Talent}}</td>
+        <td class="text-justify">{{i.Match_Count}}</td>
+
+    </tr>
+
+    {% endfor %}
+    {% endif %}
+
+</table>
+{% endblock %}

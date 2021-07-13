@@ -1,0 +1,147 @@
+Controller version: docs.google.com/spreadsheets/d/12TrxqtZbp2G_7p0vJYPOZvpSbCxNHFIFL_d767BTF9g,,,,,,
+Source code: github.com/Aevann1/PaladinsRankedStats - Stats for patch: v4.4,,,,,,
+Class,Champion,Talent,Winrate,Match Count,Confidence Interval -,Confidence Interval +
+Damage,Grohk,Maelstrom,56%,"15,810",55%,58%
+Damage,Bomb King,Royal Subjects,54%,"18,260",53%,54%
+Damage,Tyra,Burn Monster!,53%,"60,609",52%,53%
+Damage,Tyra,Mercy Kill,53%,"37,110",52%,53%
+Damage,Willo,Blastflower,53%,"13,947",51%,54%
+Damage,Lian,Alacrity,52%,"36,293",51%,52%
+Damage,Dredge,Scuttle,52%,"16,129",50%,53%
+Damage,Drogoz,W.Y.R.M. Jets,52%,"9,832",50%,53%
+Damage,Imani,Mana Rift,52%,"6,533",50%,53%
+Damage,Tiberius,Tigron's Fury,51%,"43,457",50%,51%
+Damage,Imani,Splitting Ice,51%,"31,240",50%,51%
+Damage,Willo,Nightshade,51%,"5,526",49%,52%
+Damage,Drogoz,Fusillade,50%,"19,495",49%,50%
+Damage,Dredge,Hurl,49%,"22,321",48%,49%
+Damage,Willo,Scorn,49%,"11,907",47%,50%
+Damage,Imani,Pyromania,49%,"7,637",47%,50%
+Damage,Dredge,Abyss Spike,49%,"5,225",47%,50%
+Damage,Tyra,Hunting Party,49%,"3,501",46%,51%
+Damage,Tiberius,Vicious Assault,49%,"3,306",46%,51%
+Damage,Tiberius,Predatory Instincts,48%,"15,999",46%,49%
+Damage,Lian,Eminence,47%,"44,815",46%,47%
+Damage,Cassie,Impulse,47%,"34,492",46%,47%
+Damage,Drogoz,Combustible,47%,"7,249",45%,48%
+Damage,Cassie,Exaction,46%,"16,661",45%,46%
+Damage,Sha Lin,Sand Trap,46%,"15,748",44%,47%
+Damage,Bomb King,Accelerant,46%,"4,588",44%,47%
+Damage,Viktor,Burst Mode,45%,"12,417",43%,46%
+Damage,Vivian,Opportunity in Chaos,45%,"8,155",43%,46%
+Damage,Kinessa,Reposition,45%,"7,839",43%,46%
+Damage,Lian,Precision,45%,"4,926",43%,46%
+Damage,Viktor,Cardio,44%,"20,111",43%,44%
+Damage,Viktor,Shrapnel,44%,"11,679",42%,45%
+Damage,Kinessa,Eagle Eye,44%,"8,230",42%,45%
+Damage,Vivian,Booby Trap,44%,"3,460",41%,46%
+Damage,Octavia,Asymmetric Warfare,44%,"2,925",41%,46%
+Damage,Cassie,Big Game,43%,"7,112",41%,44%
+Damage,Sha Lin,Recurve,43%,"6,387",41%,44%
+Damage,Kinessa,Steady Aim,42%,"9,593",40%,43%
+Damage,Bomb King,Chain Reaction,42%,"6,735",40%,43%
+Damage,Octavia,Display of Force,41%,"5,237",39%,42%
+Damage,Octavia,Hell or High Water,41%,"5,065",39%,42%
+Damage,Vivian,Suspect Everyone,42%,"1,678",38%,45%
+Damage,Strix,Nocturnal,39%,"8,413",37%,40%
+Damage,Sha Lin,Desert Silence,40%,"1,487",36%,43%
+Damage,Strix,Crack Shot,36%,"2,460",33%,38%
+Damage,Strix,Unauthorized Use,35%,"2,042",32%,37%
+Flank,Zhin,Yomi,54%,"28,616",53%,54%
+Flank,Moji,Toot,53%,"6,255",51%,54%
+Flank,Maeve,Cat Burglar,52%,"24,444",51%,52%
+Flank,Buck,Bulk Up,51%,"13,990",49%,52%
+Flank,Koga,Dragon Fangs,51%,"9,702",49%,52%
+Flank,Zhin,Smolder,51%,"7,662",49%,52%
+Flank,Buck,Bounce House,51%,"5,905",49%,52%
+Flank,Zhin,Guillotine,50%,"22,621",49%,50%
+Flank,Moji,Boom Boom,50%,"9,908",48%,51%
+Flank,Pip,Catalyst,50%,"6,660",48%,51%
+Flank,Androxus,Cursed Revolver,49%,"60,438",48%,49%
+Flank,Vora,Relentless Presence,49%,"33,093",48%,49%
+Flank,Talus,Inner Strength,49%,"10,872",47%,50%
+Flank,Evie,Snow Globe,49%,"6,793",47%,50%
+Flank,Lex,Discovery,48%,"29,515",47%,48%
+Flank,Vora,Unyielding Pressure,48%,"29,051",47%,48%
+Flank,Evie,Wormhole,48%,"17,095",47%,48%
+Flank,Koga,Blood Reaper,48%,"6,740",46%,49%
+Flank,Maeve,Rogue's Gambit,48%,"6,681",46%,49%
+Flank,Skye,Debilitate,47%,"17,460",46%,47%
+Flank,Koga,Adrenaline Junkie,47%,"11,777",45%,48%
+Flank,Buck,Ensnare,47%,"9,532",45%,48%
+Flank,Maeve,Street Justice,46%,"20,218",45%,46%
+Flank,Vora,Deafening Silence,47%,"2,525",44%,49%
+Flank,Moji,Snack Attack,47%,"2,111",44%,49%
+Flank,Androxus,Godslayer,44%,"9,933",42%,45%
+Flank,Lex,Death Hastens,44%,"5,601",42%,45%
+Flank,Skye,Preparation,44%,"5,107",42%,45%
+Flank,Evie,Over the Moon,43%,"2,589",40%,45%
+Flank,Talus,Nothing Personal,43%,"2,179",40%,45%
+Flank,Lex,Heroism,42%,"3,884",39%,44%
+Flank,Androxus,Defiant Fist,42%,"2,414",39%,44%
+Flank,Talus,Faustian Bargain,41%,"1,436",37%,44%
+Frontline,Yagorath,Unnatural Persistence,64%,"11,155",62%,65%
+Frontline,Yagorath,Sight Begets Strength,61%,"4,566",59%,62%
+Frontline,Yagorath,Corrosive Acid,57%,"17,287",57%,58%
+Frontline,Terminus,Crush,55%,"20,965",54%,55%
+Frontline,Terminus,Undying,55%,"13,325",53%,56%
+Frontline,Inara,Treacherous Ground,54%,"45,509",53%,54%
+Frontline,Terminus,Decimation,54%,"25,749",53%,54%
+Frontline,Barik,Architectonics,52%,"81,193",51%,52%
+Frontline,Barik,Fortify,52%,"58,199",51%,52%
+Frontline,Ash,Battering Ram,52%,"35,434",51%,52%
+Frontline,Ash,Fortress Breaker,51%,"31,143",50%,51%
+Frontline,Fernando,Scorch,51%,"17,970",50%,51%
+Frontline,Raum,Enforcer,50%,"17,058",49%,50%
+Frontline,Ruckus,Aerial Assault,50%,"16,883",49%,50%
+Frontline,Ash,Slug Shot,50%,"10,126",48%,51%
+Frontline,Fernando,Formidable,50%,"4,225",48%,51%
+Frontline,Khan,Storm of Bullets,49%,"90,587",48%,49%
+Frontline,Fernando,Aegis,49%,"87,556",48%,49%
+Frontline,Raum,Earthsplitter,49%,"23,287",48%,49%
+Frontline,Raum,Subservience,49%,"4,745",47%,50%
+Frontline,Inara,Mother's Grace,48%,"56,446",47%,48%
+Frontline,Atlas,Deja vu,48%,"19,272",47%,48%
+Frontline,Khan,Vortex Grip,48%,"13,798",46%,49%
+Frontline,Atlas,Temporal Divide,48%,"7,978",46%,49%
+Frontline,Makoa,Pluck,47%,"51,914",46%,47%
+Frontline,Inara,Tremors,47%,"9,053",45%,48%
+Frontline,Torvald,Thanks Grandpa,47%,"8,541",45%,48%
+Frontline,Makoa,Half Shell,46%,"27,032",45%,46%
+Frontline,Barik,Tinkerin,46%,"8,111",44%,47%
+Frontline,Torvald,Field Study,46%,"3,352",43%,48%
+Frontline,Torvald,Direct Current,45%,"3,054",42%,47%
+Frontline,Ruckus,Rocket Barrage,44%,"5,993",42%,45%
+Frontline,Atlas,Unstable Fissure,43%,"2,849",40%,45%
+Frontline,Ruckus,Flux Generator,42%,"12,919",40%,43%
+Frontline,Makoa,Leviathan,42%,"8,018",40%,43%
+Frontline,Khan,Lian's Shield,41%,"9,746",39%,42%
+Support,Grohk,Totemic Ward,59%,"45,500",58%,59%
+Support,Furia,Exterminate,55%,"35,921",54%,55%
+Support,Grover,Deep Roots,54%,"46,523",53%,54%
+Support,Furia,Solar Blessing,54%,"17,944",53%,54%
+Support,Io,Life Link,53%,"34,201",52%,53%
+Support,Jenos,Binary Star,53%,"28,217",52%,53%
+Support,Furia,Cherish,53%,"23,869",52%,53%
+Support,Grohk,Spirit's Domain,51%,"7,080",49%,52%
+Support,Ying,Focusing Lens,51%,"6,677",49%,52%
+Support,Skye,Smoke and Dagger,51%,"6,669",49%,52%
+Support,Corvus,Spreading Influence,50%,"20,584",49%,50%
+Support,Io,Goddess' Blessing,50%,"8,649",48%,51%
+Support,Ying,Resonance,50%,"5,208",48%,51%
+Support,Mal'Damba,Wekono's Wrath,50%,"4,918",48%,51%
+Support,Grover,Rampant Blooming,49%,"16,781",48%,49%
+Support,Io,Sacrifice,49%,"2,365",46%,51%
+Support,Grover,Ferocity,48%,"5,487",46%,49%
+Support,Seris,Mortal Reach,47%,"153,733",46%,47%
+Support,Ying,Life Exchange,47%,"26,618",46%,47%
+Support,Mal'Damba,Spirit's Chosen,46%,"51,305",45%,46%
+Support,Seris,Soul Collector,45%,9688,43%,46%
+Support,Pip,Combat Medic,45%,5934,43%,46%
+Support,Pip,Mega Potion,45%,4977,43%,46%
+Support,Jenos,Luminary,44%,13983,42%,45%
+Support,Mal'Damba,Ripened Gourd,44%,12103,42%,45%
+Support,Jenos,The Power Cosmeum,44%,8111,42%,45%
+Support,Corvus,Dark Gifts,44%,4262,42%,45%
+Support,Seris,Agony,43%,7704,41%,44%
+Support,Corvus,Stunning Visage,40%,1516,36%,43%
