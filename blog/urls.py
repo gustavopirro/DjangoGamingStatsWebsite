@@ -14,8 +14,5 @@ urlpatterns = [
     path('comment/<int:pk>/approve/', views.comment_approve, name='comment_approve'),
     path('comment/<int:pk>/remove/', views.comment_remove, name='comment_remove'),
     path('post/<int:pk>/<reaction_type>/', views.add_reaction, name='add_reaction'),
-    path('requestcsv/',views.request_csv, name='request_csv'),
-    path('stats/', views.champion_stats, name='champion_stats'),
-    path('stats/<sort_type>/<class_filter>', views.champion_stats, name='champion_stats'),
     
 ]
