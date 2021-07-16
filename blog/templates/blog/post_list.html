@@ -2,31 +2,29 @@
 
 {% block content %}
 {% for post in posts %}
-<div class="post">
-    <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+<div class="border border-white rounded mb-4 bg-secondary">
+    <h2 class="m-4 "><a class="text-light bg-dark" href="{% url 'post_detail' pk=post.pk %}">{{ post.title | title}}</a></h2>
     {% if post.published_date %}
-    <div class="date">
+    <div class="date m-4">
         {{ post.published_date }}
     </div>
     {% endif %}
-    <p>{{ post.text |linebreaksbr }}</p>
-    <div id="vote-section">
-        <div>
+    <p class="m-4">{{ post.text |linebreaksbr }}</p>
+    <div class="m-4 d-flex" id="vote-section">
+        <div class="d-flex">
             <a href="{% url 'add_reaction' pk=post.pk reaction_type='like' %}"><img
-                    src="https://rerollcdn.com/GENSHIN/Skills/2021/Fantastic_Voyage.png"></a>
+                    src="../../static/img/arrowup.png" id="arrow-up"></a>
             <p>{{ post.likeCount }}</p>
-            <p>{{post.like_percentage}}%</p> 
         </div>
-        <div>
+        <div class="d-flex">
             <a href="{% url 'add_reaction' pk=post.pk reaction_type='dislike' %}">
-                <img id="dislikeButton" src="https://rerollcdn.com/GENSHIN/Skills/2021/Fantastic_Voyage.png">
+                <img src="../../static/img/arrowup.png" id="arrow-down"/>
             </a>
-            <p>{{ post.dislikeCount }}</p>  
-            <p>{{post.dislike_percentage}}%</p>
+            <p>{{ post.dislikeCount }}</p>
         </div>
     </div>
 
-    <a href="{% url 'post_detail' pk=post.pk %}">See Comments {{ post.approved_comments.count }}</a>
+    <a class="m-4" href="{% url 'post_detail' pk=post.pk %}">See Comments {{ post.approved_comments.count }}</a>
 </div>
 {% endfor %}
 {% endblock %}

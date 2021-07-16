@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+from .local_settings import *
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -19,12 +20,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-0=v%pdibia*6(i0l&ts)bl&uogksc96y81d)c=n6*=aqmyocy*'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
@@ -77,15 +72,16 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blog',
-        'USER': 'bloguser',
-        'PASSWORD': 'teste123',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
+	'default': {
+    	'ENGINE': 'django.db.backends.mysql',
+    	'NAME': DB_NAME,
+    	'USER': DB_USER,
+    	'PASSWORD': DB_PASSWORD,
+    	'HOST': DB_HOST,
+    	'PORT': '',
+	}
 }
+
 
 
 
