@@ -55,7 +55,7 @@ def data_format(csv_file):
         return csv_file
     
 @login_required
-def request_csv():
+def request_csv(request):
     csv_url='https://docs.google.com/spreadsheets/u/0/d/1g05xgJnAR0JQXzreEOqG-xV5cd0izx67ZvOTXMZe_Zg/export?format=csv&id=1g05xgJnAR0JQXzreEOqG-xV5cd0izx67ZvOTXMZe_Zg&gid=0'
     res=rs.get(url=csv_url)
     open('winrate_all_ranks.csv', 'wb').write(res.content)
