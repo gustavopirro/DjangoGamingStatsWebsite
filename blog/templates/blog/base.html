@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-3 offset-1">
-                    <img class="icons-default navbar-brand" src="../../static/img/favicon.png"
+                    <img class="icons-default navbar-brand" src="/static/img/favicon.png"
                         alt="Logo showing a graphic bar style">
                     <a class="" href="/">Paladins Stats</a>
                 </div>
@@ -28,8 +28,8 @@
                     <a class=" ml-4" href="/stats">Stats</a>
                     {% if user.is_authenticated %}
                     <a class=" ml-4" href="{% url 'post_new' %}"><img class="icons-default"
-                            src="../../static/img/add_post.png" alt="Add post" srcset=""></a>
-                    <a class=" ml-4" href="{% url 'post_draft_list' %}"><img src="../../static/img/post_draft.png"
+                            src="/static/img/add_post.png" alt="Add post" srcset=""></a>
+                    <a class=" ml-4" href="{% url 'post_draft_list' %}"><img src="/static/img/post_draft.png"
                             alt="Draft Posts" class="icons-default"></a>
                     <span class=" ml-4">{{ user.username }}</span>
                     <a class="" href="{% url 'logout' %}">( Log out )</a>

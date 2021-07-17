@@ -13,6 +13,8 @@ class Post(models.Model):
     totalReactions = models.IntegerField(default=0)
     likeCount = models.IntegerField(default=0)
     dislikeCount = models.IntegerField(default=0)
+    cover = models.ImageField(blank=True, default=None)
+
 
     def like_percentage(self):
         if self.totalReactions == 0:

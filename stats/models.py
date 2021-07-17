@@ -10,6 +10,8 @@ class Champion(models.Model):
     match_count = models.IntegerField(default=0)
     confidence_interval_plus = models.IntegerField(default=0)
     confidence_interval_minus = models.IntegerField(default=0)
+    champion_image = models.ImageField(blank=True, default=None)
+    champion_class_image = models.ImageField(blank=True, default=None)
 
     def formated_name(self):
         name_formated = f'{self.name}'.replace('_', ' ').title()
@@ -18,11 +20,3 @@ class Champion(models.Model):
     def class_lower_case(self):
         class_formated = f'{self.champion_class}'.lower()
         return class_formated
-
-class ChampionImage(models.Model):
-    champion_name = models.CharField(max_length=50)
-    image_url = models.CharField(max_length=300)
-
-class ChampionClassImage(models.Model):
-    champion_class_name = models.CharField(max_length=50)
-    image_url = models.CharField(max_length=300)
