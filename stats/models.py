@@ -17,7 +17,7 @@ class Champion(models.Model):
     
     def class_lower_case(self):
         class_formated = f'{self.champion_class}'.lower()
-        return class_formated   
+        return class_formated
 
 class ChampionImage(models.Model):
     champion_name = models.CharField(max_length=50)
