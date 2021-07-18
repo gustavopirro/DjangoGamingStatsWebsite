@@ -25,36 +25,41 @@
                 </div>
                 <div class="col d-flex justify-content-end">
                     <div class="ml-4 dropdown">
-                        {% if user.is_authenticated %}  
+
                         <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Blog
-                        </button>                      
+                        </button>
+                        {% if user.is_authenticated %}
                         <div class="dropdown-menu ml-4 " aria-labelledby="dropdownMenuButton" href="/stats">
                             <p class="dropdown-item">{{ user.username }}</p>
+                            <a class="dropdown-item" href="/">See Posts</a>
                             <a class="dropdown-item" href="{% url 'post_new' %}">Create Post</a>
                             <a class="dropdown-item" href="{% url 'post_draft_list' %}">Draft Posts</a>
                             <a class="dropdown-item" href="{% url 'logout' %}">Logout</a>
                             {% else %}
-                            <a class="dropdown-item ml-4" href="{% url 'login' %}">Login</a>
-                            {% endif %}
+                            <div class="dropdown-menu ml-4 " aria-labelledby="dropdownMenuButton" href="/stats">
+                                <a class="dropdown-item" href="/">See Posts</a>
+                                <a class="dropdown-item" href="{% url 'login' %}">Login</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="ml-4 dropdown">
+                            <button class="btn btn-secondary dropdown-toggle btn-sm" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Stats
+                            </button>
+                            <div class="dropdown-menu ml-4 " aria-labelledby="dropdownMenuButton" href="/stats">
+                                <a class="dropdown-item" href="/stats/">Champions</a>
+                                <a class="dropdown-item" href="/stats/card">Cards</a>
+                                <a class="dropdown-item" href="/stats/map">Maps</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="ml-4 dropdown">
-                        <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Stats
-                        </button>
-                        <div class="dropdown-menu ml-4 " aria-labelledby="dropdownMenuButton" href="/stats">
-                            <a class="dropdown-item" href="/stats/">Champions</a>
-                            <a class="dropdown-item" href="/stats/card">Cards</a>
-                            <a class="dropdown-item" href="/stats/map">Maps</a>
-                        </div>
-                    </div>
+                    <div class="col-1"></div>
                 </div>
-                <div class="col-1"></div>
             </div>
-        </div>
 
     </nav>
     <div class="container">

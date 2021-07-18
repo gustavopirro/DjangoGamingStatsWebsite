@@ -4,16 +4,14 @@
 <div class="border border-white rounded mb-4 bg-secondary">
     <h2 class="m-4">{{ post.title | title}}</h2>
     {% if post.published_date %}
-    <div class="date m-4">
-        {{ post.published_date }}
-    </div>
+    <p class="date m-4 text-light">{{ post.published_date }}</p>
     {% else %}
-    <a class="btn btn-default m-4" href="{% url 'post_publish' pk=post.pk %}">Publish</a>
+    <a class="btn btn-secondary m-4" href="{% url 'post_publish' pk=post.pk %}">Publish</a>
     {% endif %}
     {% if user.is_authenticated %}
     <div class="m-4">
-    <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}">Edit</a>
-    <a class="btn btn-default" href="{% url 'post_remove' pk=post.pk %}">Delete</a>
+    <a class="btn btn-secondary" href="{% url 'post_edit' pk=post.pk %}">Edit</a>
+    <a class="btn btn-secondary" href="{% url 'post_remove' pk=post.pk %}">Delete</a>
     </div>
     {% endif %}
     <p class="m-4">{{ post.text|linebreaksbr }}</p>
@@ -38,8 +36,8 @@
         <div class="date">
             {{ comment.created_date }}
             {% if not comment.approved_comment %}
-            <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}">Delete</a>
-            <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}">Approve</a>
+            <a class="btn btn-secondary" href="{% url 'comment_remove' pk=comment.pk %}">Delete</a>
+            <a class="btn btn-secondary" href="{% url 'comment_approve' pk=comment.pk %}">Approve</a>
             {% endif %}
         </div>
         <strong>{{ comment.author }}</strong>

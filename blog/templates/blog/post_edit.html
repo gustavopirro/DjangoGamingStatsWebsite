@@ -4,6 +4,6 @@
     <h2>New post</h2>
     <form method="POST" enctype="multipart/form-data">{% csrf_token %}
         {{ form.as_p }}
-        <button type="submit" class="save btn btn-default">Save</button>
+        <button type="submit" class="save btn btn-secondary" style="color: aliceblue;">Save</button>
     </form>
 {% endblock %}
