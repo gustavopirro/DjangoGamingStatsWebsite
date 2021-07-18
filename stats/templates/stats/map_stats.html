@@ -1,0 +1,34 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+{% load static %}
+
+<table class="table table-hover table-dark mt-4 shadow border border-dark rounded">
+    <thead class="thead-dark">
+        <tr>
+            <th>Class</th>
+            <th>Champion</th>
+            <th>Map</th>
+            <th>Winrate</th>
+            <th>Match Count</th>
+        </tr>
+    </thead>
+    {% if map_stats %}
+    {% for i in map_stats %}
+    <tr class="border-light">
+        <td class="text-justify"><img class="rounded-circle" style="width:30px;height: 30px;"
+                src="{{ i.champion.champion_class_image }}"
+                alt="Image representing the class {{i.champion.champion_class}}"></td>
+        <td class="text-justify"><img class="rounded-circle" style="width: 30px; height: 30px; margin-right: 10px;"
+                src="{{ i.champion.champion_image }}" alt="Image showing the face of the champion {{i.champion.formated_name | title }}">{{i.champion.formated_name}}
+        </td>
+        <td class="text-justify">{{i.map_name_formated}}</td>
+        <td class="text-justify">{{ i.winrate }}%</td>
+        <td class="text-justify">{{i.match_count}}</td>
+    </tr>
+
+    {% endfor %}
+    {% endif %}
+
+</table>
+{% endblock %}

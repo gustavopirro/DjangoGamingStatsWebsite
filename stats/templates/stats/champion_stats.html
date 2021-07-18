@@ -40,9 +40,9 @@
     <tr class="border-light">
         <td class="text-justify"><img class="rounded-circle" style="width:30px;height: 30px;"
                 src="{{ i.champion_class_image }}"
-                alt=""></td>
+                alt="Image representing the class {{i.champion_class}}"></td>
         <td class="text-justify"><img class="rounded-circle" style="width: 30px; height: 30px; margin-right: 10px;"
-                src="{{ i.champion_image }}">{{i.formated_name}}
+                src="{{ i.champion_image }}" alt="Image showing the face of the champion {{i.name | title }}">{{i.formated_name}}
         </td>
         <td class="text-justify">{{ i.winrate }}%</td>
         <td class="text-justify">{{i.talent}}</td>

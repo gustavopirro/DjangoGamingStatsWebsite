@@ -20,22 +20,37 @@
             <div class="row">
                 <div class="col-3 offset-1">
                     <img class="icons-default navbar-brand" src="/static/img/favicon.png"
-                        alt="Logo showing a graphic bar style">
+                        alt="Site Logo showing a graphic bar style">
                     <a class="" href="/">Paladins Stats</a>
                 </div>
                 <div class="col d-flex justify-content-end">
-                    <a class=" ml-4" href="/">Blog</a>
-                    <a class=" ml-4" href="/stats">Stats</a>
-                    {% if user.is_authenticated %}
-                    <a class=" ml-4" href="{% url 'post_new' %}"><img class="icons-default"
-                            src="/static/img/add_post.png" alt="Add post" srcset=""></a>
-                    <a class=" ml-4" href="{% url 'post_draft_list' %}"><img src="/static/img/post_draft.png"
-                            alt="Draft Posts" class="icons-default"></a>
-                    <span class=" ml-4">{{ user.username }}</span>
-                    <a class="" href="{% url 'logout' %}">( Log out )</a>
-                    {% else %}
-                    <a class=" ml-4" href="{% url 'login' %}">Login</a>
-                    {% endif %}
+                    <div class="ml-4 dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </button>
+                        <div class="dropdown-menu ml-4 " aria-labelledby="dropdownMenuButton" href="/stats">
+                            {% if user.is_authenticated %}
+                            <span class=" ml-4">{{ user.username }}</span>
+                            <a class="dropdown-item ml-4" href="{% url 'post_new' %}"></a>
+                            <a class=" ml-4" href="{% url 'post_draft_list' %}"></a>
+                            <a class="dropdown-item" href="{% url 'logout' %}">Logout</a>
+                            {% else %}
+                            <a class="dropdown-item ml-4" href="{% url 'login' %}">Login</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="ml-4 dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Stats
+                        </button>
+                        <div class="dropdown-menu ml-4 " aria-labelledby="dropdownMenuButton" href="/stats">
+                            <a class="dropdown-item" href="/stats/">Champions</a>
+                            <a class="dropdown-item" href="/stats/card">Cards</a>
+                            <a class="dropdown-item" href="/stats/map">Maps</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-1"></div>
             </div>
