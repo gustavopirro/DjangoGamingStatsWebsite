@@ -2,6 +2,13 @@
     color:aliceblue;
     font-family: 'Roboto', sans-serif;
 }
+div > .dropdown-menu { 
+    background-color: #212529;
+ }
+
+ .dropdown-menu > .dropdown-item {
+    color: aliceblue;
+ }
 
 .ml-4{
     margin-left: 10px !important;
