@@ -36,7 +36,7 @@ def get_champion_stats(request, class_filter='All', sort_type='Winrate'):
          })
 
 @login_required
-def create_winrate_per_champion_db():
+def create_winrate_per_champion_db(request):
     if Champion.objects.all():
         Champion.objects.all().delete()
     with open('winrate_all_ranks.csv', newline='') as f:
@@ -57,10 +57,10 @@ def create_winrate_per_champion_db():
         champion_data.champion_image = f'/static/img/{champion_data.name}.jpg'
         champion_data.champion_class_image = f'/static/img/{champion_data.champion_class}.jpg'
         champion_data.save()
-    return HttpResponse("Champion database created, run now create_winrate_per_card_db and create_winrate_per_map_db")
+    return HttpResponse("Card database created, run now create_winrate_per_card_db and create_winrate_per_map_db")
 
 @login_required
-def create_winrate_per_card_db():
+def create_winrate_per_card_db(request):
     with open('winrate_per_card.csv', newline='') as f:
         reader = csv.reader(f)
         for i in range(1): next(reader)
@@ -84,7 +84,7 @@ def create_winrate_per_card_db():
         return HttpResponse("Map database created, run now create_winrate_per_card_db or create_winrate_per_map_db")
 
 @login_required
-def create_winrate_per_map_db():  
+def create_winrate_per_map_db(request):  
     with open('winrate_per_map.csv', newline='') as f:
         reader = csv.reader(f)
         for i in range(1): next(reader)
@@ -100,7 +100,7 @@ def create_winrate_per_map_db():
                 confidence_interval_minus=row[6],
             )
             champion_map_stats.save()
-        return HttpResponse("Champion database created, run now create_winrate_per_card_db and create_winrate_per_map_db")            
+        return HttpResponse("Map database created, run now create_winrate_per_card_db and create_winrate_per_map_db")            
       
 def wr_per_champion_data_format(csv_file):
         for row in csv_file:
