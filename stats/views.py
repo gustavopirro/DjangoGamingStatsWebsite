@@ -57,7 +57,7 @@ def create_winrate_per_champion_db(request):
         champion_data.champion_image = f'/static/img/{champion_data.name}.jpg'
         champion_data.champion_class_image = f'/static/img/{champion_data.champion_class}.jpg'
         champion_data.save()
-    return HttpResponse("Card database created, run now create_winrate_per_card_db and create_winrate_per_map_db")
+    return HttpResponse("Champion database created, run now create_winrate_per_card_db and create_winrate_per_map_db")
 
 @login_required
 def create_winrate_per_card_db(request):
@@ -81,7 +81,7 @@ def create_winrate_per_card_db(request):
                 confidence_interval_plus = row[7]
             )
             champion_card_stats.save()
-        return HttpResponse("Map database created, run now create_winrate_per_card_db or create_winrate_per_map_db")
+        return HttpResponse("Card database created, run now create_winrate_per_card_db or create_winrate_per_map_db")
 
 @login_required
 def create_winrate_per_map_db(request):  
