@@ -15,13 +15,15 @@
 </head>
 
 <body class="bg-primary">
+
+
     <nav class="bg-dark mb-4 p-2">
         <div class="container">
             <div class="row">
-                <div class="col-3 offset-1">
-                    <img class="icons-default navbar-brand" src="/static/img/favicon.png"
+                <div class="col-3 offset-1 d-flex align-items-center">
+                    <img id="iconSite" class="icons-default navbar-brand my-0" src="/static/img/favicon.png"
                         alt="Site Logo showing a graphic bar style">
-                    <a class="" href="/">Paladins Stats</a>
+                    <a class="" href="/"> Paladins Stats</a>
                 </div>
                 <div class="col d-flex justify-content-end">
                     <div class="ml-4 dropdown">
@@ -62,6 +64,8 @@
             </div>
 
     </nav>
+
+
     <div class="container">
         <div class="row">
             <div class="offset-1 col-md-10 col-sm-10">
@@ -70,6 +74,13 @@
             </div>
         </div>
     </div>
+
+
+    <footer class="bg-dark p-2 d-flex justify-content-center align-middle" style="width: 100%;">
+        <span>Paladins stats - Made with Django</span>
+    </footer>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -79,7 +90,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
         integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>

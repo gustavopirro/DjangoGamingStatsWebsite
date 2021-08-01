@@ -1,18 +1,24 @@
 from django.conf import settings
 from django.db import models
 from django.http import request
-from pandas.core.frame import DataFrame
 from blog.models import PostReaction
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from .forms import Post, PostForm, CommentForm, Comment
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
+import logging
 
+
+logger = logging.getLogger(__name__)
 
 def post_list(request): 
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    return render(request, 'blog/post_list.html', {'posts':posts})
+    if posts:
+        logger.debug("Post found")
+        return render(request, 'blog/post_list.html', {'posts':posts})
+    else:
+        logger.error("Post list not found")
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)

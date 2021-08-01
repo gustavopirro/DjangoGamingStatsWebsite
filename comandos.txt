@@ -1,4 +1,5 @@
 myvenv/Scripts/Activate - start virtual ambient
+source myvenv/bin/activate - stat virtual ambient linux
 django-admin.exe startproject mysite - create project
 python3 manage.py migrate - create/update database
 python3 manage.py runserver - run server

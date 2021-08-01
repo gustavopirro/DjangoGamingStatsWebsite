@@ -2,6 +2,24 @@
     color:aliceblue;
     font-family: 'Roboto', sans-serif;
 }
+
+body{ 
+    min-height: 100vh; 
+    margin: 0; 
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+footer{
+    margin-top:auto; 
+}
+
+#iconSite{
+    margin: 0;
+    padding: 0 10px;
+}
+
 div > .dropdown-menu { 
     background-color: #212529;
  }
