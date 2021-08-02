@@ -1,0 +1,26 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+<h2>Users</h2>
+<br />
+{% for user in users %}
+<div class="post">
+    <h3>
+        {{user.username}} ({{user.email}})
+        <small style="margin-left: 15px">
+            <a href="{% url 'user_edit' pk=user.pk %}">
+                <span class="fa fa-edit"></span>
+            </a>
+        </small>
+
+        <small style="margin-left: 15px;">
+            <a href="{% url 'user_remove' pk=user.pk %}">
+                <span class="fa fa-trash"></span>
+            </a>
+        </small>
+        
+    </h3>
+    <br />
+</div>
+{% empty %}
+{% endfor %}
+{% endblock %}

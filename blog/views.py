@@ -1,24 +1,57 @@
 from django.conf import settings
+from django.contrib.auth.forms import UserModel
 from django.db import models
 from django.http import request
 from blog.models import PostReaction
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
-from .forms import Post, PostForm, CommentForm, Comment
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
+from django.contrib.auth import get_user_model, login
+
+from .forms import Post, PostForm, CommentForm, Comment
+from users.forms import CustomUserChangeForm
 import logging
 
 
 logger = logging.getLogger(__name__)
 
+@login_required
+def user_edit(request, pk):
+    UserModel = get_user_model()
+    user = get_object_or_404(UserModel, pk=pk)
+    if request.method == "POST":
+        form = CustomUserChangeForm(request.POST, instance = user)
+        if form.is_valid():
+            form.save()
+            return redirect('user_list')
+    else:
+        form = CustomUserChangeForm(instance=user)
+    return render(request, 'blog/user_edit.html', {'form': form})
+
+
+@login_required
+def user_list(request):
+    UserModel = get_user_model()
+    users = UserModel.objects.all().order_by('birth_date')
+
+    return render(request, 'blog/users_list.html', {'users': users})
+
+@login_required
+def user_remove(request, pk):
+    UserModel = get_user_model()
+    user = get_object_or_404(UserModel, pk=pk)
+    user.delete()
+
+    return redirect('user_list')
+
 def post_list(request): 
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    if posts:
-        logger.debug("Post found")
-        return render(request, 'blog/post_list.html', {'posts':posts})
-    else:
-        logger.error("Post list not found")
+
+    logger.debug("Post found")
+    return render(request, 'blog/post_list.html', {'posts':posts})
+    # else:
+    #     logger.error("Post list not found")
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)

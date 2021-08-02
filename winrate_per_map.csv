@@ -1,577 +1,589 @@
 Class,Champion,Map,Winrate,Match Count,Confidence Interval -,Confidence Interval +
-Damage,Bomb King,Jaguar Falls,50%,"2,728",47%,52%
-Damage,Bomb King,Shattered Desert,50%,"2,051",47%,52%
-Damage,Bomb King,Warder's Gate,49%,"2,171",46%,51%
-Damage,Bomb King,Brightmarsh,48%,"2,699",45%,50%
-Damage,Bomb King,Stone Keep,48%,"2,401",45%,50%
-Damage,Bomb King,Ascension Peak,48%,"2,196",45%,50%
-Damage,Bomb King,Frozen Guard,48%,"2,186",45%,50%
-Damage,Bomb King,Serpent Beach,48%,"1,757",44%,51%
-Damage,Bomb King,Splitstone Quarry,48%,"1,705",44%,51%
-Damage,Bomb King,Bazaar,46%,"2,105",43%,48%
-Damage,Bomb King,Timber Mill,46%,"1,263",42%,49%
-Damage,Bomb King,Fish Market,45%,"1,557",41%,48%
-Damage,Cassie,Timber Mill,47%,"2,916",44%,49%
-Damage,Cassie,Fish Market,46%,"3,598",43%,48%
-Damage,Cassie,Ascension Peak,46%,"3,379",43%,48%
-Damage,Cassie,Stone Keep,46%,"3,032",43%,48%
-Damage,Cassie,Frozen Guard,45%,"3,571",42%,47%
-Damage,Cassie,Shattered Desert,45%,"3,480",42%,47%
-Damage,Cassie,Warder's Gate,45%,"3,391",42%,47%
-Damage,Cassie,Splitstone Quarry,45%,"2,660",42%,47%
-Damage,Cassie,Bazaar,44%,"3,444",41%,46%
-Damage,Cassie,Jaguar Falls,44%,"3,294",41%,46%
-Damage,Cassie,Brightmarsh,44%,"2,913",41%,46%
-Damage,Cassie,Serpent Beach,42%,"3,062",39%,44%
-Damage,Dredge,Stone Keep,52%,"3,435",49%,54%
-Damage,Dredge,Warder's Gate,52%,"3,311",49%,54%
-Damage,Dredge,Splitstone Quarry,50%,"3,803",47%,52%
-Damage,Dredge,Jaguar Falls,50%,"3,714",47%,52%
-Damage,Dredge,Ascension Peak,50%,"2,983",47%,52%
-Damage,Dredge,Shattered Desert,50%,"2,873",47%,52%
-Damage,Dredge,Bazaar,49%,"3,158",46%,51%
-Damage,Dredge,Frozen Guard,49%,"2,924",46%,51%
-Damage,Dredge,Brightmarsh,48%,"3,756",45%,50%
-Damage,Dredge,Serpent Beach,48%,"2,926",45%,50%
-Damage,Dredge,Fish Market,47%,"2,483",44%,49%
-Damage,Dredge,Timber Mill,46%,"3,053",43%,48%
-Damage,Drogoz,Serpent Beach,52%,"3,427",49%,54%
-Damage,Drogoz,Jaguar Falls,51%,"3,547",48%,53%
-Damage,Drogoz,Splitstone Quarry,51%,"2,992",48%,53%
-Damage,Drogoz,Brightmarsh,49%,"3,498",46%,51%
-Damage,Drogoz,Warder's Gate,49%,"2,644",46%,51%
-Damage,Drogoz,Bazaar,49%,"2,563",46%,51%
-Damage,Drogoz,Ascension Peak,49%,"2,506",46%,51%
-Damage,Drogoz,Stone Keep,48%,"2,943",45%,50%
-Damage,Drogoz,Frozen Guard,48%,"1,815",44%,51%
-Damage,Drogoz,Timber Mill,47%,"2,329",44%,49%
-Damage,Drogoz,Fish Market,47%,"2,215",44%,49%
-Damage,Drogoz,Shattered Desert,45%,"2,398",42%,47%
-Damage,Imani,Serpent Beach,52%,"3,770",49%,54%
-Damage,Imani,Timber Mill,51%,"3,613",48%,53%
-Damage,Imani,Splitstone Quarry,50%,"3,531",47%,52%
-Damage,Imani,Ascension Peak,50%,"3,368",47%,52%
-Damage,Imani,Bazaar,50%,"3,213",47%,52%
-Damage,Imani,Brightmarsh,50%,"3,192",47%,52%
-Damage,Imani,Frozen Guard,50%,"3,121",47%,52%
-Damage,Imani,Stone Keep,49%,"3,326",46%,51%
-Damage,Imani,Fish Market,48%,"3,357",45%,50%
-Damage,Imani,Shattered Desert,48%,"3,355",45%,50%
-Damage,Imani,Warder's Gate,48%,"3,333",45%,50%
-Damage,Imani,Jaguar Falls,48%,"3,164",45%,50%
-Damage,Kinessa,Timber Mill,49%,"2,530",46%,51%
-Damage,Kinessa,Fish Market,45%,"2,173",42%,47%
-Damage,Kinessa,Splitstone Quarry,43%,"2,352",40%,45%
-Damage,Kinessa,Serpent Beach,43%,"2,088",40%,45%
-Damage,Kinessa,Stone Keep,43%,"1,935",40%,45%
-Damage,Kinessa,Ascension Peak,41%,"1,967",38%,43%
-Damage,Kinessa,Bazaar,41%,"1,688",37%,44%
-Damage,Kinessa,Shattered Desert,40%,"1,515",36%,43%
-Damage,Kinessa,Frozen Guard,40%,"1,417",36%,43%
-Damage,Kinessa,Warder's Gate,39%,"1,676",35%,42%
-Damage,Kinessa,Brightmarsh,36%,837,31%,40%
-Damage,Kinessa,Jaguar Falls,34%,872,29%,38%
-Damage,Lian,Fish Market,49%,"5,411",47%,50%
-Damage,Lian,Timber Mill,48%,"5,097",46%,49%
-Damage,Lian,Shattered Desert,48%,"4,979",46%,49%
-Damage,Lian,Ascension Peak,47%,"5,002",45%,48%
-Damage,Lian,Frozen Guard,47%,"4,912",45%,48%
-Damage,Lian,Stone Keep,46%,"4,880",44%,47%
-Damage,Lian,Serpent Beach,46%,"4,826",44%,47%
-Damage,Lian,Warder's Gate,46%,"4,626",44%,47%
-Damage,Lian,Bazaar,45%,"4,742",43%,46%
-Damage,Lian,Brightmarsh,45%,"4,187",43%,46%
-Damage,Lian,Splitstone Quarry,44%,"4,788",42%,45%
-Damage,Lian,Jaguar Falls,43%,"4,688",41%,44%
-Damage,Octavia,Timber Mill,46%,"1,207",42%,49%
-Damage,Octavia,Shattered Desert,44%,"1,063",40%,47%
-Damage,Octavia,Jaguar Falls,43%,938,38%,47%
-Damage,Octavia,Splitstone Quarry,42%,"1,140",38%,45%
-Damage,Octavia,Fish Market,42%,"1,100",38%,45%
-Damage,Octavia,Frozen Guard,42%,975,37%,46%
-Damage,Octavia,Serpent Beach,41%,"1,048",37%,44%
-Damage,Octavia,Warder's Gate,40%,942,35%,44%
-Damage,Octavia,Brightmarsh,40%,909,35%,44%
-Damage,Octavia,Bazaar,39%,"1,094",35%,42%
-Damage,Octavia,Stone Keep,39%,"1,020",35%,42%
-Damage,Octavia,Ascension Peak,37%,974,33%,40%
-Damage,Sha Lin,Bazaar,45%,"1,677",41%,48%
-Damage,Sha Lin,Fish Market,45%,"1,616",41%,48%
-Damage,Sha Lin,Frozen Guard,45%,"1,606",41%,48%
-Damage,Sha Lin,Ascension Peak,45%,"1,561",41%,48%
-Damage,Sha Lin,Jaguar Falls,44%,"1,539",40%,47%
-Damage,Sha Lin,Timber Mill,44%,"1,475",40%,47%
-Damage,Sha Lin,Warder's Gate,44%,"1,460",40%,47%
-Damage,Sha Lin,Shattered Desert,43%,"1,770",39%,46%
-Damage,Sha Lin,Serpent Beach,42%,"1,429",38%,45%
-Damage,Sha Lin,Stone Keep,42%,"1,429",38%,45%
-Damage,Sha Lin,Brightmarsh,42%,"1,373",38%,45%
-Damage,Sha Lin,Splitstone Quarry,42%,"1,250",38%,45%
-Damage,Strix,Timber Mill,42%,"2,117",39%,44%
-Damage,Strix,Bazaar,39%,890,34%,43%
-Damage,Strix,Fish Market,38%,"1,466",34%,41%
-Damage,Strix,Splitstone Quarry,37%,"1,591",33%,40%
-Damage,Strix,Stone Keep,36%,"1,084",32%,39%
-Damage,Strix,Frozen Guard,35%,800,30%,39%
-Damage,Strix,Serpent Beach,34%,"1,020",30%,37%
-Damage,Strix,Shattered Desert,34%,918,29%,38%
-Damage,Strix,Warder's Gate,34%,847,29%,38%
-Damage,Strix,Jaguar Falls,33%,608,28%,37%
-Damage,Strix,Ascension Peak,32%,"1,010",28%,35%
-Damage,Strix,Brightmarsh,30%,567,25%,34%
-Damage,Tiberius,Jaguar Falls,50%,"4,294",48%,51%
-Damage,Tiberius,Bazaar,50%,"4,166",48%,51%
-Damage,Tiberius,Ascension Peak,50%,"4,047",47%,52%
-Damage,Tiberius,Shattered Desert,50%,"3,945",47%,52%
-Damage,Tiberius,Brightmarsh,50%,"3,936",47%,52%
-Damage,Tiberius,Timber Mill,50%,"3,875",47%,52%
-Damage,Tiberius,Serpent Beach,50%,"3,853",47%,52%
-Damage,Tiberius,Warder's Gate,50%,"3,814",47%,52%
-Damage,Tiberius,Frozen Guard,49%,"4,099",46%,51%
-Damage,Tiberius,Fish Market,49%,"4,020",46%,51%
-Damage,Tiberius,Stone Keep,49%,"3,954",46%,51%
-Damage,Tiberius,Splitstone Quarry,48%,"3,810",45%,50%
-Damage,Tyra,Brightmarsh,54%,"7,898",52%,55%
-Damage,Tyra,Stone Keep,54%,"7,323",52%,55%
-Damage,Tyra,Splitstone Quarry,54%,"7,275",52%,55%
-Damage,Tyra,Warder's Gate,53%,"7,736",51%,54%
-Damage,Tyra,Ascension Peak,53%,"7,680",51%,54%
-Damage,Tyra,Shattered Desert,53%,"7,660",51%,54%
-Damage,Tyra,Serpent Beach,53%,"7,085",51%,54%
-Damage,Tyra,Jaguar Falls,52%,"8,042",50%,53%
-Damage,Tyra,Frozen Guard,52%,"7,758",50%,53%
-Damage,Tyra,Bazaar,52%,"7,460",50%,53%
-Damage,Tyra,Fish Market,52%,"6,879",50%,53%
-Damage,Tyra,Timber Mill,49%,"6,614",47%,50%
-Damage,Viktor,Timber Mill,46%,"3,827",43%,48%
-Damage,Viktor,Fish Market,45%,"3,888",42%,47%
-Damage,Viktor,Bazaar,44%,"3,944",41%,46%
-Damage,Viktor,Frozen Guard,44%,"3,784",41%,46%
-Damage,Viktor,Stone Keep,44%,"3,617",41%,46%
-Damage,Viktor,Ascension Peak,43%,"3,873",40%,45%
-Damage,Viktor,Splitstone Quarry,43%,"3,831",40%,45%
-Damage,Viktor,Shattered Desert,43%,"3,732",40%,45%
-Damage,Viktor,Serpent Beach,43%,"3,688",40%,45%
-Damage,Viktor,Brightmarsh,43%,"3,333",40%,45%
-Damage,Viktor,Jaguar Falls,42%,"3,398",39%,44%
-Damage,Viktor,Warder's Gate,40%,"3,417",37%,42%
-Damage,Vivian,Fish Market,48%,"1,144",44%,51%
-Damage,Vivian,Frozen Guard,46%,"1,232",42%,49%
-Damage,Vivian,Serpent Beach,46%,"1,106",42%,49%
-Damage,Vivian,Ascension Peak,45%,"1,239",41%,48%
-Damage,Vivian,Timber Mill,45%,989,40%,49%
-Damage,Vivian,Bazaar,44%,"1,280",40%,47%
-Damage,Vivian,Warder's Gate,43%,"1,141",39%,46%
-Damage,Vivian,Stone Keep,43%,"1,105",39%,46%
-Damage,Vivian,Jaguar Falls,42%,"1,262",38%,45%
-Damage,Vivian,Brightmarsh,42%,"1,173",38%,45%
-Damage,Vivian,Shattered Desert,40%,"1,225",36%,43%
-Damage,Vivian,Splitstone Quarry,39%,"1,028",35%,42%
-Damage,Willo,Splitstone Quarry,53%,"3,130",50%,55%
-Damage,Willo,Serpent Beach,53%,"2,654",50%,55%
-Damage,Willo,Jaguar Falls,52%,"3,128",49%,54%
-Damage,Willo,Timber Mill,51%,"2,764",48%,53%
-Damage,Willo,Warder's Gate,51%,"2,041",48%,53%
-Damage,Willo,Fish Market,51%,"1,984",48%,53%
-Damage,Willo,Brightmarsh,50%,"3,311",47%,52%
-Damage,Willo,Bazaar,50%,"2,061",47%,52%
-Damage,Willo,Frozen Guard,50%,"1,738",46%,53%
-Damage,Willo,Stone Keep,49%,"2,470",46%,51%
-Damage,Willo,Shattered Desert,48%,"1,818",44%,51%
-Damage,Willo,Ascension Peak,47%,"2,052",44%,49%
-Flank,Androxus,Serpent Beach,49%,"4,528",47%,50%
-Flank,Androxus,Timber Mill,48%,"4,357",46%,49%
-Flank,Androxus,Splitstone Quarry,47%,"4,479",45%,48%
-Flank,Androxus,Brightmarsh,47%,"4,425",45%,48%
-Flank,Androxus,Bazaar,47%,"4,352",45%,48%
-Flank,Androxus,Jaguar Falls,46%,"4,494",44%,47%
-Flank,Androxus,Ascension Peak,46%,"4,327",44%,47%
-Flank,Androxus,Warder's Gate,46%,"4,255",44%,47%
-Flank,Androxus,Fish Market,46%,"4,237",44%,47%
-Flank,Androxus,Frozen Guard,46%,"4,216",44%,47%
-Flank,Androxus,Stone Keep,45%,"4,339",43%,46%
-Flank,Androxus,Shattered Desert,45%,"4,147",43%,46%
-Flank,Buck,Stone Keep,51%,"2,099",48%,53%
-Flank,Buck,Shattered Desert,50%,"2,186",47%,52%
-Flank,Buck,Frozen Guard,50%,"2,047",47%,52%
-Flank,Buck,Splitstone Quarry,50%,"1,973",47%,52%
-Flank,Buck,Fish Market,49%,"2,186",46%,51%
-Flank,Buck,Timber Mill,49%,"2,106",46%,51%
-Flank,Buck,Bazaar,49%,"2,035",46%,51%
-Flank,Buck,Warder's Gate,48%,"2,199",45%,50%
-Flank,Buck,Brightmarsh,48%,"1,930",45%,50%
-Flank,Buck,Serpent Beach,47%,"2,144",44%,49%
-Flank,Buck,Ascension Peak,46%,"2,064",43%,48%
-Flank,Buck,Jaguar Falls,45%,"1,997",42%,47%
-Flank,Evie,Serpent Beach,49%,"2,267",46%,51%
-Flank,Evie,Splitstone Quarry,48%,"2,337",45%,50%
-Flank,Evie,Timber Mill,47%,"2,196",44%,49%
-Flank,Evie,Stone Keep,45%,"1,957",42%,47%
-Flank,Evie,Bazaar,45%,"1,719",41%,48%
-Flank,Evie,Warder's Gate,45%,"1,689",41%,48%
-Flank,Evie,Shattered Desert,45%,"1,586",41%,48%
-Flank,Evie,Brightmarsh,44%,"1,868",41%,46%
-Flank,Evie,Fish Market,44%,"1,745",40%,47%
-Flank,Evie,Ascension Peak,44%,"1,645",40%,47%
-Flank,Evie,Jaguar Falls,44%,"1,544",40%,47%
-Flank,Evie,Frozen Guard,44%,"1,468",40%,47%
-Flank,Koga,Jaguar Falls,49%,"2,630",46%,51%
-Flank,Koga,Serpent Beach,49%,"2,570",46%,51%
-Flank,Koga,Brightmarsh,49%,"2,497",46%,51%
-Flank,Koga,Ascension Peak,49%,"2,495",46%,51%
-Flank,Koga,Shattered Desert,49%,"2,473",46%,51%
-Flank,Koga,Warder's Gate,49%,"2,462",46%,51%
-Flank,Koga,Splitstone Quarry,49%,"2,383",46%,51%
-Flank,Koga,Frozen Guard,48%,"2,451",45%,50%
-Flank,Koga,Bazaar,47%,"2,527",44%,49%
-Flank,Koga,Stone Keep,47%,"2,450",44%,49%
-Flank,Koga,Fish Market,47%,"2,390",44%,49%
-Flank,Koga,Timber Mill,46%,"2,268",43%,48%
-Flank,Lex,Fish Market,48%,"3,097",45%,50%
-Flank,Lex,Jaguar Falls,47%,"3,453",44%,49%
-Flank,Lex,Shattered Desert,47%,"3,393",44%,49%
-Flank,Lex,Frozen Guard,47%,"3,248",44%,49%
-Flank,Lex,Ascension Peak,47%,"3,176",44%,49%
-Flank,Lex,Warder's Gate,47%,"3,157",44%,49%
-Flank,Lex,Splitstone Quarry,47%,"2,632",44%,49%
-Flank,Lex,Timber Mill,47%,"2,474",44%,49%
-Flank,Lex,Bazaar,46%,"3,169",43%,48%
-Flank,Lex,Stone Keep,46%,"2,995",43%,48%
-Flank,Lex,Brightmarsh,44%,"2,980",41%,46%
-Flank,Lex,Serpent Beach,44%,"2,801",41%,46%
-Flank,Maeve,Fish Market,51%,"4,250",49%,52%
-Flank,Maeve,Timber Mill,50%,"4,469",48%,51%
-Flank,Maeve,Bazaar,49%,"4,004",46%,51%
-Flank,Maeve,Serpent Beach,48%,"4,431",46%,49%
-Flank,Maeve,Stone Keep,48%,"4,159",46%,49%
-Flank,Maeve,Ascension Peak,48%,"4,061",45%,50%
-Flank,Maeve,Frozen Guard,48%,"3,891",45%,50%
-Flank,Maeve,Splitstone Quarry,47%,"4,388",45%,48%
-Flank,Maeve,Warder's Gate,47%,"3,966",44%,49%
-Flank,Maeve,Shattered Desert,46%,"3,945",43%,48%
-Flank,Maeve,Brightmarsh,46%,"3,937",43%,48%
-Flank,Maeve,Jaguar Falls,45%,"3,965",42%,47%
-Flank,Moji,Ascension Peak,53%,"1,615",49%,56%
-Flank,Moji,Jaguar Falls,52%,"2,081",49%,54%
-Flank,Moji,Brightmarsh,52%,"1,807",48%,55%
-Flank,Moji,Shattered Desert,52%,"1,564",48%,55%
-Flank,Moji,Frozen Guard,51%,"1,546",47%,54%
-Flank,Moji,Bazaar,50%,"1,811",46%,53%
-Flank,Moji,Fish Market,50%,"1,266",46%,53%
-Flank,Moji,Warder's Gate,49%,"1,536",45%,52%
-Flank,Moji,Splitstone Quarry,49%,"1,245",45%,52%
-Flank,Moji,Stone Keep,48%,"1,454",44%,51%
-Flank,Moji,Timber Mill,46%,"1,086",42%,49%
-Flank,Moji,Serpent Beach,44%,"1,378",40%,47%
-Flank,Skye,Bazaar,48%,"2,639",45%,50%
-Flank,Skye,Jaguar Falls,48%,"2,624",45%,50%
-Flank,Skye,Warder's Gate,48%,"2,488",45%,50%
-Flank,Skye,Frozen Guard,47%,"2,690",44%,49%
-Flank,Skye,Ascension Peak,47%,"2,607",44%,49%
-Flank,Skye,Brightmarsh,47%,"2,518",44%,49%
-Flank,Skye,Fish Market,47%,"2,508",44%,49%
-Flank,Skye,Splitstone Quarry,46%,"2,302",43%,48%
-Flank,Skye,Shattered Desert,45%,"2,620",42%,47%
-Flank,Skye,Stone Keep,45%,"2,432",42%,47%
-Flank,Skye,Timber Mill,45%,"2,313",42%,47%
-Flank,Skye,Serpent Beach,45%,"2,304",42%,47%
-Flank,Talus,Jaguar Falls,48%,"1,410",44%,51%
-Flank,Talus,Shattered Desert,48%,"1,278",44%,51%
-Flank,Talus,Frozen Guard,48%,"1,256",44%,51%
-Flank,Talus,Brightmarsh,47%,"1,272",43%,50%
-Flank,Talus,Ascension Peak,47%,"1,226",43%,50%
-Flank,Talus,Fish Market,47%,"1,202",43%,50%
-Flank,Talus,Serpent Beach,47%,"1,022",42%,51%
-Flank,Talus,Bazaar,46%,"1,269",42%,49%
-Flank,Talus,Warder's Gate,46%,"1,212",42%,49%
-Flank,Talus,Stone Keep,46%,"1,114",42%,49%
-Flank,Talus,Splitstone Quarry,46%,989,41%,50%
-Flank,Talus,Timber Mill,45%,897,40%,49%
-Flank,Vora,Timber Mill,50%,"4,792",48%,51%
-Flank,Vora,Splitstone Quarry,49%,"4,746",47%,50%
-Flank,Vora,Stone Keep,49%,"4,546",47%,50%
-Flank,Vora,Fish Market,49%,"4,448",47%,50%
-Flank,Vora,Shattered Desert,49%,"4,366",47%,50%
-Flank,Vora,Brightmarsh,49%,"4,270",47%,50%
-Flank,Vora,Serpent Beach,48%,"4,639",46%,49%
-Flank,Vora,Warder's Gate,48%,"4,335",46%,49%
-Flank,Vora,Ascension Peak,47%,"4,516",45%,48%
-Flank,Vora,Frozen Guard,47%,"4,235",45%,48%
-Flank,Vora,Bazaar,47%,"4,091",44%,49%
-Flank,Vora,Jaguar Falls,45%,"4,401",43%,46%
-Flank,Zhin,Jaguar Falls,53%,"4,289",51%,54%
-Flank,Zhin,Ascension Peak,53%,"4,269",51%,54%
-Flank,Zhin,Shattered Desert,53%,"4,161",51%,54%
-Flank,Zhin,Warder's Gate,53%,"4,092",50%,55%
-Flank,Zhin,Brightmarsh,52%,"4,168",50%,53%
-Flank,Zhin,Frozen Guard,52%,"4,047",49%,54%
-Flank,Zhin,Stone Keep,52%,"4,001",49%,54%
-Flank,Zhin,Bazaar,51%,"4,184",49%,52%
-Flank,Zhin,Fish Market,51%,"4,028",48%,53%
-Flank,Zhin,Splitstone Quarry,50%,"4,091",47%,52%
-Flank,Zhin,Serpent Beach,50%,"3,859",47%,52%
-Flank,Zhin,Timber Mill,49%,"3,934",46%,51%
-Frontline,Ash,Shattered Desert,52%,"5,968",50%,53%
-Frontline,Ash,Ascension Peak,52%,"5,758",50%,53%
-Frontline,Ash,Jaguar Falls,51%,"5,830",49%,52%
-Frontline,Ash,Warder's Gate,51%,"5,718",49%,52%
-Frontline,Ash,Frozen Guard,51%,"5,637",49%,52%
-Frontline,Ash,Brightmarsh,51%,"5,356",49%,52%
-Frontline,Ash,Stone Keep,50%,"5,738",48%,51%
-Frontline,Ash,Bazaar,50%,"5,732",48%,51%
-Frontline,Ash,Serpent Beach,50%,"5,640",48%,51%
-Frontline,Ash,Timber Mill,50%,"5,259",48%,51%
-Frontline,Ash,Fish Market,49%,"7,463",47%,50%
-Frontline,Ash,Splitstone Quarry,49%,"5,414",47%,50%
-Frontline,Atlas,Fish Market,48%,"2,002",45%,50%
-Frontline,Atlas,Timber Mill,47%,"2,174",44%,49%
-Frontline,Atlas,Shattered Desert,47%,"2,109",44%,49%
-Frontline,Atlas,Bazaar,47%,"2,089",44%,49%
-Frontline,Atlas,Ascension Peak,47%,"2,050",44%,49%
-Frontline,Atlas,Stone Keep,46%,"2,090",43%,48%
-Frontline,Atlas,Jaguar Falls,46%,"2,059",43%,48%
-Frontline,Atlas,Frozen Guard,46%,"2,040",43%,48%
-Frontline,Atlas,Warder's Gate,46%,"1,992",43%,48%
-Frontline,Atlas,Brightmarsh,46%,"1,966",43%,48%
-Frontline,Atlas,Splitstone Quarry,45%,"1,959",42%,47%
-Frontline,Atlas,Serpent Beach,45%,"1,951",42%,47%
-Frontline,Barik,Ascension Peak,52%,"11,681",50%,53%
-Frontline,Barik,Jaguar Falls,52%,"11,612",50%,53%
-Frontline,Barik,Shattered Desert,52%,"11,360",50%,53%
-Frontline,Barik,Serpent Beach,52%,"11,325",50%,53%
-Frontline,Barik,Stone Keep,51%,"11,540",49%,52%
-Frontline,Barik,Timber Mill,51%,"11,330",49%,52%
-Frontline,Barik,Fish Market,51%,"11,287",49%,52%
-Frontline,Barik,Frozen Guard,51%,"11,271",49%,52%
-Frontline,Barik,Brightmarsh,51%,"11,154",49%,52%
-Frontline,Barik,Bazaar,50%,"11,662",48%,51%
-Frontline,Barik,Splitstone Quarry,50%,"11,456",48%,51%
-Frontline,Barik,Warder's Gate,50%,"11,099",48%,51%
-Frontline,Fernando,Bazaar,51%,"8,616",49%,52%
-Frontline,Fernando,Splitstone Quarry,51%,"8,322",49%,52%
-Frontline,Fernando,Jaguar Falls,50%,"8,969",48%,51%
-Frontline,Fernando,Stone Keep,50%,"8,795",48%,51%
-Frontline,Fernando,Serpent Beach,50%,"8,542",48%,51%
-Frontline,Fernando,Shattered Desert,50%,"8,529",48%,51%
-Frontline,Fernando,Warder's Gate,50%,"8,357",48%,51%
-Frontline,Fernando,Brightmarsh,49%,"8,605",47%,50%
-Frontline,Fernando,Ascension Peak,49%,"8,529",47%,50%
-Frontline,Fernando,Frozen Guard,49%,"8,412",47%,50%
-Frontline,Fernando,Timber Mill,49%,"8,076",47%,50%
-Frontline,Fernando,Fish Market,49%,"7,907",47%,50%
-Frontline,Inara,Brightmarsh,51%,"9,990",49%,52%
-Frontline,Inara,Warder's Gate,51%,"9,636",49%,52%
-Frontline,Inara,Frozen Guard,51%,"9,279",49%,52%
-Frontline,Inara,Splitstone Quarry,51%,"9,082",49%,52%
-Frontline,Inara,Jaguar Falls,50%,"10,270",48%,51%
-Frontline,Inara,Serpent Beach,50%,"9,472",48%,51%
-Frontline,Inara,Bazaar,50%,"9,335",48%,51%
-Frontline,Inara,Stone Keep,50%,"9,182",48%,51%
-Frontline,Inara,Shattered Desert,50%,"9,076",48%,51%
-Frontline,Inara,Timber Mill,50%,"8,625",48%,51%
-Frontline,Inara,Fish Market,50%,"8,254",48%,51%
-Frontline,Inara,Ascension Peak,49%,"9,243",47%,50%
-Frontline,Khan,Splitstone Quarry,50%,"8,934",48%,51%
-Frontline,Khan,Fish Market,50%,"8,065",48%,51%
-Frontline,Khan,Warder's Gate,48%,"8,340",46%,49%
-Frontline,Khan,Brightmarsh,48%,"8,276",46%,49%
-Frontline,Khan,Serpent Beach,48%,"8,261",46%,49%
-Frontline,Khan,Frozen Guard,48%,"8,178",46%,49%
-Frontline,Khan,Timber Mill,48%,"7,338",46%,49%
-Frontline,Khan,Ascension Peak,47%,"8,341",45%,48%
-Frontline,Khan,Stone Keep,47%,"7,810",45%,48%
-Frontline,Khan,Bazaar,47%,"7,167",45%,48%
-Frontline,Khan,Jaguar Falls,46%,"8,588",44%,47%
-Frontline,Khan,Shattered Desert,46%,"7,644",44%,47%
-Frontline,Makoa,Shattered Desert,47%,"6,060",45%,48%
-Frontline,Makoa,Jaguar Falls,45%,"6,225",43%,46%
-Frontline,Makoa,Bazaar,45%,"6,113",43%,46%
-Frontline,Makoa,Splitstone Quarry,45%,"6,095",43%,46%
-Frontline,Makoa,Brightmarsh,45%,"5,978",43%,46%
-Frontline,Makoa,Warder's Gate,45%,"5,919",43%,46%
-Frontline,Makoa,Serpent Beach,45%,"5,839",43%,46%
-Frontline,Makoa,Timber Mill,45%,"5,400",43%,46%
-Frontline,Makoa,Ascension Peak,44%,"6,007",42%,45%
-Frontline,Makoa,Stone Keep,44%,"5,971",42%,45%
-Frontline,Makoa,Frozen Guard,44%,"5,909",42%,45%
-Frontline,Makoa,Fish Market,44%,"5,339",42%,45%
-Frontline,Raum,Bazaar,50%,"4,165",48%,51%
-Frontline,Raum,Shattered Desert,50%,"4,062",47%,52%
-Frontline,Raum,Fish Market,50%,"3,793",47%,52%
-Frontline,Raum,Stone Keep,49%,"4,025",46%,51%
-Frontline,Raum,Ascension Peak,49%,"3,978",46%,51%
-Frontline,Raum,Jaguar Falls,49%,"3,957",46%,51%
-Frontline,Raum,Frozen Guard,49%,"3,859",46%,51%
-Frontline,Raum,Timber Mill,49%,"3,845",46%,51%
-Frontline,Raum,Warder's Gate,49%,"3,714",46%,51%
-Frontline,Raum,Serpent Beach,48%,"3,867",45%,50%
-Frontline,Raum,Brightmarsh,48%,"3,762",45%,50%
-Frontline,Raum,Splitstone Quarry,48%,"3,649",45%,50%
-Frontline,Ruckus,Timber Mill,46%,"3,525",43%,48%
-Frontline,Ruckus,Fish Market,46%,"2,595",43%,48%
-Frontline,Ruckus,Splitstone Quarry,45%,"3,138",42%,47%
-Frontline,Ruckus,Stone Keep,45%,"2,728",42%,47%
-Frontline,Ruckus,Bazaar,45%,"2,724",42%,47%
-Frontline,Ruckus,Warder's Gate,45%,"2,621",42%,47%
-Frontline,Ruckus,Frozen Guard,45%,"2,465",42%,47%
-Frontline,Ruckus,Serpent Beach,44%,"2,909",41%,46%
-Frontline,Ruckus,Shattered Desert,44%,"2,503",41%,46%
-Frontline,Ruckus,Jaguar Falls,44%,"2,377",41%,46%
-Frontline,Ruckus,Brightmarsh,43%,"2,600",40%,45%
-Frontline,Ruckus,Ascension Peak,43%,"2,518",40%,45%
-Frontline,Terminus,Jaguar Falls,56%,"4,774",55%,58%
-Frontline,Terminus,Brightmarsh,56%,"4,641",54%,57%
-Frontline,Terminus,Ascension Peak,56%,"4,640",54%,57%
-Frontline,Terminus,Serpent Beach,56%,"4,628",54%,57%
-Frontline,Terminus,Warder's Gate,56%,"4,440",54%,57%
-Frontline,Terminus,Shattered Desert,55%,"4,638",53%,56%
-Frontline,Terminus,Frozen Guard,55%,"4,573",53%,56%
-Frontline,Terminus,Stone Keep,55%,"4,570",53%,56%
-Frontline,Terminus,Bazaar,54%,"4,780",52%,55%
-Frontline,Terminus,Timber Mill,54%,"4,747",52%,55%
-Frontline,Terminus,Fish Market,54%,"4,447",52%,55%
-Frontline,Terminus,Splitstone Quarry,53%,"4,746",51%,54%
-Frontline,Torvald,Jaguar Falls,47%,"1,503",43%,50%
-Frontline,Torvald,Warder's Gate,47%,"1,302",43%,50%
-Frontline,Torvald,Frozen Guard,47%,"1,266",43%,50%
-Frontline,Torvald,Ascension Peak,47%,"1,233",43%,50%
-Frontline,Torvald,Stone Keep,47%,"1,192",43%,50%
-Frontline,Torvald,Bazaar,47%,"1,133",43%,50%
-Frontline,Torvald,Serpent Beach,46%,"1,319",42%,49%
-Frontline,Torvald,Shattered Desert,46%,"1,247",42%,49%
-Frontline,Torvald,Fish Market,45%,"2,042",42%,47%
-Frontline,Torvald,Timber Mill,45%,"1,142",41%,48%
-Frontline,Torvald,Splitstone Quarry,45%,"1,083",41%,48%
-Frontline,Torvald,Brightmarsh,43%,"1,156",39%,46%
-Frontline,Yagorath,Stone Keep,62%,"2,388",59%,64%
-Frontline,Yagorath,Brightmarsh,61%,"2,432",58%,63%
-Frontline,Yagorath,Ascension Peak,60%,"2,548",57%,62%
-Frontline,Yagorath,Jaguar Falls,60%,"2,524",57%,62%
-Frontline,Yagorath,Frozen Guard,60%,"2,422",57%,62%
-Frontline,Yagorath,Serpent Beach,60%,"2,422",57%,62%
-Frontline,Yagorath,Warder's Gate,60%,2383,57%,62%
-Frontline,Yagorath,Shattered Desert,59%,2510,56%,61%
-Frontline,Yagorath,Fish Market,59%,2418,56%,61%
-Frontline,Yagorath,Splitstone Quarry,59%,2364,56%,61%
-Frontline,Yagorath,Bazaar,57%,2517,55%,60%
-Frontline,Yagorath,Timber Mill,56%,2462,54%,59%
-Support,Corvus,Timber Mill,50%,2460,47%,52%
-Support,Corvus,Fish Market,49%,2186,46%,51%
-Support,Corvus,Stone Keep,49%,2142,46%,51%
-Support,Corvus,Splitstone Quarry,48%,2359,45%,50%
-Support,Corvus,Serpent Beach,48%,2191,45%,50%
-Support,Corvus,Shattered Desert,48%,1969,45%,50%
-Support,Corvus,Bazaar,47%,2000,44%,49%
-Support,Corvus,Frozen Guard,47%,1906,44%,49%
-Support,Corvus,Warder's Gate,46%,2066,43%,48%
-Support,Corvus,Ascension Peak,46%,2047,43%,48%
-Support,Corvus,Brightmarsh,46%,1732,42%,49%
-Support,Corvus,Jaguar Falls,45%,1946,42%,47%
-Support,Furia,Frozen Guard,54%,5755,52%,55%
-Support,Furia,Stone Keep,54%,5691,52%,55%
-Support,Furia,Serpent Beach,54%,5509,52%,55%
-Support,Furia,Timber Mill,54%,5449,52%,55%
-Support,Furia,Jaguar Falls,53%,6184,51%,54%
-Support,Furia,Splitstone Quarry,53%,5584,51%,54%
-Support,Furia,Fish Market,53%,5257,51%,54%
-Support,Furia,Ascension Peak,52%,5803,50%,53%
-Support,Furia,Warder's Gate,52%,5734,50%,53%
-Support,Furia,Shattered Desert,52%,5685,50%,53%
-Support,Furia,Brightmarsh,51%,5755,49%,52%
-Support,Furia,Bazaar,51%,5744,49%,52%
-Support,Grohk,Warder's Gate,59%,4838,57%,60%
-Support,Grohk,Jaguar Falls,57%,5335,56%,59%
-Support,Grohk,Brightmarsh,57%,5287,56%,59%
-Support,Grohk,Bazaar,57%,5109,56%,59%
-Support,Grohk,Frozen Guard,57%,4970,56%,59%
-Support,Grohk,Ascension Peak,56%,5184,55%,58%
-Support,Grohk,Serpent Beach,56%,4883,55%,58%
-Support,Grohk,Splitstone Quarry,56%,5040,54%,57%
-Support,Grohk,Fish Market,55%,4928,53%,56%
-Support,Grohk,Shattered Desert,55%,4920,53%,56%
-Support,Grohk,Stone Keep,55%,4865,53%,56%
-Support,Grohk,Timber Mill,54%,4823,52%,55%
-Support,Grover,Splitstone Quarry,52%,4148,50%,53%
-Support,Grover,Brightmarsh,51%,5430,49%,52%
-Support,Grover,Jaguar Falls,51%,5312,49%,52%
-Support,Grover,Bazaar,51%,4750,49%,52%
-Support,Grover,Warder's Gate,51%,4415,49%,52%
-Support,Grover,Stone Keep,51%,4408,49%,52%
-Support,Grover,Ascension Peak,51%,4341,49%,52%
-Support,Grover,Timber Mill,51%,4199,49%,52%
-Support,Grover,Serpent Beach,51%,4194,49%,52%
-Support,Grover,Frozen Guard,50%,4360,48%,51%
-Support,Grover,Fish Market,50%,3843,47%,52%
-Support,Grover,Shattered Desert,48%,4223,46%,49%
-Support,Io,Fish Market,53%,4147,51%,54%
-Support,Io,Jaguar Falls,53%,3962,50%,55%
-Support,Io,Shattered Desert,52%,4084,49%,54%
-Support,Io,Serpent Beach,52%,3960,49%,54%
-Support,Io,Stone Keep,52%,3924,49%,54%
-Support,Io,Frozen Guard,52%,3882,49%,54%
-Support,Io,Bazaar,52%,3805,49%,54%
-Support,Io,Timber Mill,52%,3613,49%,54%
-Support,Io,Ascension Peak,51%,3933,48%,53%
-Support,Io,Warder's Gate,51%,3889,48%,53%
-Support,Io,Brightmarsh,51%,3735,48%,53%
-Support,Io,Splitstone Quarry,49%,3741,46%,51%
-Support,Jenos,Bazaar,49%,3579,46%,51%
-Support,Jenos,Frozen Guard,47%,3442,44%,49%
-Support,Jenos,Serpent Beach,47%,3424,44%,49%
-Support,Jenos,Stone Keep,47%,3374,44%,49%
-Support,Jenos,Timber Mill,47%,3328,44%,49%
-Support,Jenos,Fish Market,47%,3294,44%,49%
-Support,Jenos,Jaguar Falls,46%,3567,43%,48%
-Support,Jenos,Shattered Desert,46%,3457,43%,48%
-Support,Jenos,Ascension Peak,46%,3353,43%,48%
-Support,Jenos,Warder's Gate,46%,3291,43%,48%
-Support,Jenos,Splitstone Quarry,46%,3179,43%,48%
-Support,Jenos,Brightmarsh,45%,3185,42%,47%
-Support,Mal'Damba,Splitstone Quarry,47%,4522,45%,48%
-Support,Mal'Damba,Brightmarsh,46%,4658,44%,47%
-Support,Mal'Damba,Warder's Gate,46%,4500,44%,47%
-Support,Mal'Damba,Stone Keep,46%,4451,44%,47%
-Support,Mal'Damba,Jaguar Falls,45%,4933,43%,46%
-Support,Mal'Damba,Serpent Beach,45%,4574,43%,46%
-Support,Mal'Damba,Frozen Guard,45%,4531,43%,46%
-Support,Mal'Damba,Bazaar,45%,4358,43%,46%
-Support,Mal'Damba,Timber Mill,45%,4315,43%,46%
-Support,Mal'Damba,Ascension Peak,44%,4680,42%,45%
-Support,Mal'Damba,Fish Market,43%,4474,41%,44%
-Support,Mal'Damba,Shattered Desert,42%,4460,40%,43%
-Support,Pip,Splitstone Quarry,51%,1508,47%,54%
-Support,Pip,Stone Keep,50%,1509,46%,53%
-Support,Pip,Brightmarsh,47%,1436,43%,50%
-Support,Pip,Jaguar Falls,47%,1428,43%,50%
-Support,Pip,Serpent Beach,46%,1424,42%,49%
-Support,Pip,Bazaar,46%,1339,42%,49%
-Support,Pip,Timber Mill,46%,1336,42%,49%
-Support,Pip,Frozen Guard,46%,1324,42%,49%
-Support,Pip,Fish Market,45%,1385,41%,48%
-Support,Pip,Shattered Desert,45%,1283,41%,48%
-Support,Pip,Warder's Gate,44%,1318,40%,47%
-Support,Pip,Ascension Peak,42%,1314,38%,45%
-Support,Seris,Shattered Desert,49%,13970,47%,50%
-Support,Seris,Ascension Peak,48%,14083,46%,49%
-Support,Seris,Warder's Gate,47%,13893,45%,48%
-Support,Seris,Fish Market,47%,13646,45%,48%
-Support,Seris,Jaguar Falls,46%,13961,44%,47%
-Support,Seris,Serpent Beach,46%,13891,44%,47%
-Support,Seris,Stone Keep,46%,13840,44%,47%
-Support,Seris,Timber Mill,46%,13792,44%,47%
-Support,Seris,Bazaar,46%,13677,44%,47%
-Support,Seris,Frozen Guard,46%,13569,44%,47%
-Support,Seris,Brightmarsh,46%,13516,44%,47%
-Support,Seris,Splitstone Quarry,45%,14040,43%,46%
-Support,Ying,Fish Market,50%,3159,47%,52%
-Support,Ying,Splitstone Quarry,49%,3151,46%,51%
-Support,Ying,Bazaar,48%,3383,45%,50%
-Support,Ying,Ascension Peak,48%,3339,45%,50%
-Support,Ying,Shattered Desert,48%,3300,45%,50%
-Support,Ying,Timber Mill,48%,3053,45%,50%
-Support,Ying,Serpent Beach,47%,3207,44%,49%
-Support,Ying,Stone Keep,47%,3197,44%,49%
-Support,Ying,Frozen Guard,47%,3102,44%,49%
-Support,Ying,Brightmarsh,47%,2919,44%,49%
-Support,Ying,Warder's Gate,46%,3088,43%,48%
-Support,Ying,Jaguar Falls,45%,3170,42%,47%
+Damage,Bomb King,Jaguar Falls,50%,833,45%,54%
+Damage,Bomb King,Warder's Gate,50%,625,44%,55%
+Damage,Bomb King,Brightmarsh,49%,839,44%,53%
+Damage,Bomb King,Serpent Beach,49%,524,43%,54%
+Damage,Bomb King,Stone Keep,48%,820,43%,52%
+Damage,Bomb King,Bazaar,48%,586,42%,53%
+Damage,Bomb King,Frozen Guard,47%,634,41%,52%
+Damage,Bomb King,Ascension Peak,47%,617,41%,52%
+Damage,Bomb King,Shattered Desert,47%,584,41%,52%
+Damage,Bomb King,Splitstone Quarry,45%,481,39%,50%
+Damage,Bomb King,Fish Market,44%,408,37%,50%
+Damage,Bomb King,Timber Mill,40%,355,33%,46%
+Damage,Cassie,Fish Market,48%,"1,354",44%,51%
+Damage,Cassie,Stone Keep,48%,"1,146",44%,51%
+Damage,Cassie,Serpent Beach,48%,"1,134",44%,51%
+Damage,Cassie,Jaguar Falls,47%,"1,219",43%,50%
+Damage,Cassie,Timber Mill,47%,"1,101",43%,50%
+Damage,Cassie,Warder's Gate,46%,"1,323",42%,49%
+Damage,Cassie,Frozen Guard,46%,"1,286",42%,49%
+Damage,Cassie,Ascension Peak,46%,"1,254",42%,49%
+Damage,Cassie,Shattered Desert,45%,"1,292",41%,48%
+Damage,Cassie,Bazaar,44%,"1,226",40%,47%
+Damage,Cassie,Brightmarsh,44%,"1,190",40%,47%
+Damage,Cassie,Splitstone Quarry,44%,"1,046",40%,47%
+Damage,Dredge,Jaguar Falls,55%,"1,009",50%,59%
+Damage,Dredge,Splitstone Quarry,55%,973,50%,59%
+Damage,Dredge,Stone Keep,51%,896,46%,55%
+Damage,Dredge,Warder's Gate,51%,893,46%,55%
+Damage,Dredge,Brightmarsh,49%,981,44%,53%
+Damage,Dredge,Bazaar,49%,886,44%,53%
+Damage,Dredge,Frozen Guard,49%,783,44%,53%
+Damage,Dredge,Shattered Desert,49%,778,44%,53%
+Damage,Dredge,Fish Market,49%,654,43%,54%
+Damage,Dredge,Timber Mill,47%,815,42%,51%
+Damage,Dredge,Ascension Peak,46%,827,41%,50%
+Damage,Dredge,Serpent Beach,45%,749,40%,49%
+Damage,Drogoz,Brightmarsh,52%,"1,097",48%,55%
+Damage,Drogoz,Stone Keep,52%,882,47%,56%
+Damage,Drogoz,Bazaar,52%,646,46%,57%
+Damage,Drogoz,Serpent Beach,51%,920,46%,55%
+Damage,Drogoz,Jaguar Falls,50%,"1,050",46%,53%
+Damage,Drogoz,Splitstone Quarry,50%,787,45%,54%
+Damage,Drogoz,Ascension Peak,49%,658,44%,53%
+Damage,Drogoz,Timber Mill,48%,585,42%,53%
+Damage,Drogoz,Fish Market,47%,600,41%,52%
+Damage,Drogoz,Warder's Gate,45%,700,40%,49%
+Damage,Drogoz,Shattered Desert,45%,588,39%,50%
+Damage,Drogoz,Frozen Guard,45%,485,39%,50%
+Damage,Imani,Timber Mill,55%,980,50%,59%
+Damage,Imani,Brightmarsh,51%,836,46%,55%
+Damage,Imani,Shattered Desert,50%,877,45%,54%
+Damage,Imani,Warder's Gate,50%,846,45%,54%
+Damage,Imani,Serpent Beach,49%,"1,019",44%,53%
+Damage,Imani,Splitstone Quarry,49%,981,44%,53%
+Damage,Imani,Fish Market,49%,922,44%,53%
+Damage,Imani,Stone Keep,48%,887,43%,52%
+Damage,Imani,Frozen Guard,48%,820,43%,52%
+Damage,Imani,Jaguar Falls,48%,752,43%,52%
+Damage,Imani,Ascension Peak,47%,894,42%,51%
+Damage,Imani,Bazaar,46%,813,41%,50%
+Damage,Kinessa,Timber Mill,50%,717,45%,54%
+Damage,Kinessa,Fish Market,46%,701,41%,50%
+Damage,Kinessa,Bazaar,46%,437,39%,52%
+Damage,Kinessa,Stone Keep,44%,568,38%,49%
+Damage,Kinessa,Frozen Guard,44%,419,37%,50%
+Damage,Kinessa,Splitstone Quarry,42%,731,37%,46%
+Damage,Kinessa,Serpent Beach,40%,565,34%,45%
+Damage,Kinessa,Shattered Desert,40%,409,33%,46%
+Damage,Kinessa,Ascension Peak,39%,597,33%,44%
+Damage,Kinessa,Warder's Gate,39%,446,33%,44%
+Damage,Kinessa,Jaguar Falls,37%,206,28%,45%
+Damage,Kinessa,Brightmarsh,36%,225,27%,44%
+Damage,Lian,Fish Market,51%,"1,897",48%,53%
+Damage,Lian,Shattered Desert,50%,"1,751",46%,53%
+Damage,Lian,Ascension Peak,50%,"1,693",46%,53%
+Damage,Lian,Frozen Guard,49%,"1,713",45%,52%
+Damage,Lian,Timber Mill,49%,"1,688",45%,52%
+Damage,Lian,Bazaar,48%,"1,658",44%,51%
+Damage,Lian,Serpent Beach,48%,"1,627",44%,51%
+Damage,Lian,Warder's Gate,48%,"1,623",44%,51%
+Damage,Lian,Stone Keep,47%,"1,754",43%,50%
+Damage,Lian,Splitstone Quarry,47%,"1,624",43%,50%
+Damage,Lian,Jaguar Falls,45%,"1,571",41%,48%
+Damage,Lian,Brightmarsh,45%,"1,403",41%,48%
+Damage,Octavia,Warder's Gate,51%,176,41%,60%
+Damage,Octavia,Stone Keep,44%,193,34%,53%
+Damage,Octavia,Ascension Peak,44%,169,34%,53%
+Damage,Octavia,Frozen Guard,41%,166,31%,50%
+Damage,Octavia,Timber Mill,40%,214,31%,48%
+Damage,Octavia,Splitstone Quarry,40%,181,30%,49%
+Damage,Octavia,Jaguar Falls,39%,170,29%,48%
+Damage,Octavia,Bazaar,39%,164,29%,48%
+Damage,Octavia,Serpent Beach,37%,189,28%,45%
+Damage,Octavia,Shattered Desert,36%,165,26%,45%
+Damage,Octavia,Fish Market,35%,190,26%,43%
+Damage,Octavia,Brightmarsh,35%,162,25%,44%
+Damage,Sha Lin,Serpent Beach,52%,496,46%,57%
+Damage,Sha Lin,Frozen Guard,50%,600,44%,55%
+Damage,Sha Lin,Bazaar,49%,559,43%,54%
+Damage,Sha Lin,Warder's Gate,49%,518,43%,54%
+Damage,Sha Lin,Fish Market,48%,568,42%,53%
+Damage,Sha Lin,Ascension Peak,47%,486,41%,52%
+Damage,Sha Lin,Timber Mill,47%,480,41%,52%
+Damage,Sha Lin,Shattered Desert,46%,634,40%,51%
+Damage,Sha Lin,Stone Keep,45%,519,39%,50%
+Damage,Sha Lin,Jaguar Falls,44%,525,38%,49%
+Damage,Sha Lin,Splitstone Quarry,43%,473,37%,48%
+Damage,Sha Lin,Brightmarsh,42%,519,36%,47%
+Damage,Strix,Timber Mill,42%,545,36%,47%
+Damage,Strix,Shattered Desert,42%,234,33%,50%
+Damage,Strix,Fish Market,40%,410,33%,46%
+Damage,Strix,Stone Keep,39%,268,31%,46%
+Damage,Strix,Serpent Beach,39%,257,31%,46%
+Damage,Strix,Jaguar Falls,38%,160,28%,47%
+Damage,Strix,Bazaar,37%,229,28%,45%
+Damage,Strix,Frozen Guard,37%,217,28%,45%
+Damage,Strix,Ascension Peak,36%,265,28%,43%
+Damage,Strix,Splitstone Quarry,34%,424,28%,39%
+Damage,Strix,Warder's Gate,35%,250,27%,42%
+Damage,Strix,Brightmarsh,34%,142,23%,44%
+Damage,Tiberius,Bazaar,49%,"1,023",44%,53%
+Damage,Tiberius,Fish Market,49%,976,44%,53%
+Damage,Tiberius,Stone Keep,48%,"1,062",44%,51%
+Damage,Tiberius,Shattered Desert,46%,"1,037",42%,49%
+Damage,Tiberius,Ascension Peak,46%,"1,022",41%,50%
+Damage,Tiberius,Frozen Guard,45%,"1,083",41%,48%
+Damage,Tiberius,Jaguar Falls,45%,"1,036",41%,48%
+Damage,Tiberius,Serpent Beach,45%,"1,031",41%,48%
+Damage,Tiberius,Warder's Gate,45%,"1,002",40%,49%
+Damage,Tiberius,Timber Mill,45%,932,40%,49%
+Damage,Tiberius,Splitstone Quarry,44%,921,39%,48%
+Damage,Tiberius,Brightmarsh,42%,952,37%,46%
+Damage,Tyra,Splitstone Quarry,55%,"2,216",52%,57%
+Damage,Tyra,Jaguar Falls,54%,"2,418",51%,56%
+Damage,Tyra,Brightmarsh,54%,"2,409",51%,56%
+Damage,Tyra,Shattered Desert,54%,"2,220",51%,56%
+Damage,Tyra,Ascension Peak,54%,"2,211",51%,56%
+Damage,Tyra,Bazaar,54%,"2,147",51%,56%
+Damage,Tyra,Stone Keep,54%,"2,137",51%,56%
+Damage,Tyra,Serpent Beach,53%,"2,126",50%,55%
+Damage,Tyra,Frozen Guard,52%,"2,316",49%,54%
+Damage,Tyra,Warder's Gate,52%,"2,194",49%,54%
+Damage,Tyra,Fish Market,52%,"1,982",49%,54%
+Damage,Tyra,Timber Mill,48%,"1,846",45%,50%
+Damage,Viktor,Fish Market,47%,"1,122",43%,50%
+Damage,Viktor,Timber Mill,47%,"1,092",43%,50%
+Damage,Viktor,Brightmarsh,46%,870,41%,50%
+Damage,Viktor,Splitstone Quarry,45%,"1,152",41%,48%
+Damage,Viktor,Serpent Beach,45%,945,40%,49%
+Damage,Viktor,Warder's Gate,45%,908,40%,49%
+Damage,Viktor,Shattered Desert,43%,"1,044",39%,46%
+Damage,Viktor,Frozen Guard,43%,"1,004",38%,47%
+Damage,Viktor,Ascension Peak,43%,996,38%,47%
+Damage,Viktor,Stone Keep,43%,981,38%,47%
+Damage,Viktor,Jaguar Falls,43%,947,38%,47%
+Damage,Viktor,Bazaar,42%,"1,131",38%,45%
+Damage,Vivian,Fish Market,49%,347,42%,55%
+Damage,Vivian,Frozen Guard,48%,379,41%,54%
+Damage,Vivian,Bazaar,48%,372,41%,54%
+Damage,Vivian,Brightmarsh,47%,348,40%,53%
+Damage,Vivian,Serpent Beach,46%,365,39%,52%
+Damage,Vivian,Shattered Desert,46%,340,39%,52%
+Damage,Vivian,Splitstone Quarry,45%,301,37%,52%
+Damage,Vivian,Ascension Peak,44%,344,37%,50%
+Damage,Vivian,Timber Mill,43%,307,35%,50%
+Damage,Vivian,Jaguar Falls,42%,342,35%,48%
+Damage,Vivian,Stone Keep,42%,316,34%,49%
+Damage,Vivian,Warder's Gate,37%,328,30%,43%
+Damage,Willo,Splitstone Quarry,52%,896,47%,56%
+Damage,Willo,Warder's Gate,52%,509,46%,57%
+Damage,Willo,Ascension Peak,52%,483,46%,57%
+Damage,Willo,Serpent Beach,50%,685,45%,54%
+Damage,Willo,Stone Keep,50%,622,44%,55%
+Damage,Willo,Brightmarsh,49%,941,44%,53%
+Damage,Willo,Jaguar Falls,49%,801,44%,53%
+Damage,Willo,Timber Mill,49%,680,44%,53%
+Damage,Willo,Shattered Desert,49%,492,43%,54%
+Damage,Willo,Frozen Guard,48%,386,41%,54%
+Damage,Willo,Bazaar,46%,554,40%,51%
+Damage,Willo,Fish Market,45%,544,39%,50%
+Flank,Androxus,Splitstone Quarry,49%,"1,455",45%,52%
+Flank,Androxus,Brightmarsh,49%,"1,388",45%,52%
+Flank,Androxus,Serpent Beach,49%,"1,386",45%,52%
+Flank,Androxus,Warder's Gate,49%,"1,340",45%,52%
+Flank,Androxus,Frozen Guard,48%,"1,218",44%,51%
+Flank,Androxus,Fish Market,47%,"1,360",43%,50%
+Flank,Androxus,Timber Mill,47%,"1,325",43%,50%
+Flank,Androxus,Jaguar Falls,47%,"1,316",43%,50%
+Flank,Androxus,Shattered Desert,47%,"1,231",43%,50%
+Flank,Androxus,Ascension Peak,46%,"1,270",42%,49%
+Flank,Androxus,Bazaar,45%,"1,179",41%,48%
+Flank,Androxus,Stone Keep,44%,"1,382",40%,47%
+Flank,Buck,Timber Mill,54%,604,48%,59%
+Flank,Buck,Jaguar Falls,54%,586,48%,59%
+Flank,Buck,Stone Keep,53%,671,48%,57%
+Flank,Buck,Bazaar,53%,584,47%,58%
+Flank,Buck,Splitstone Quarry,52%,585,46%,57%
+Flank,Buck,Serpent Beach,51%,634,45%,56%
+Flank,Buck,Shattered Desert,50%,626,44%,55%
+Flank,Buck,Ascension Peak,50%,586,44%,55%
+Flank,Buck,Brightmarsh,49%,605,43%,54%
+Flank,Buck,Fish Market,48%,608,42%,53%
+Flank,Buck,Frozen Guard,48%,590,42%,53%
+Flank,Buck,Warder's Gate,47%,595,41%,52%
+Flank,Evie,Serpent Beach,49%,608,43%,54%
+Flank,Evie,Splitstone Quarry,48%,654,42%,53%
+Flank,Evie,Timber Mill,48%,521,42%,53%
+Flank,Evie,Ascension Peak,48%,442,41%,54%
+Flank,Evie,Stone Keep,47%,532,41%,52%
+Flank,Evie,Brightmarsh,46%,490,40%,51%
+Flank,Evie,Warder's Gate,45%,421,38%,51%
+Flank,Evie,Frozen Guard,45%,376,38%,51%
+Flank,Evie,Shattered Desert,45%,375,38%,51%
+Flank,Evie,Bazaar,44%,479,38%,49%
+Flank,Evie,Fish Market,44%,454,38%,49%
+Flank,Evie,Jaguar Falls,43%,394,36%,49%
+Flank,Koga,Shattered Desert,52%,696,47%,56%
+Flank,Koga,Bazaar,51%,721,46%,55%
+Flank,Koga,Warder's Gate,51%,694,46%,55%
+Flank,Koga,Fish Market,50%,716,45%,54%
+Flank,Koga,Frozen Guard,50%,708,45%,54%
+Flank,Koga,Brightmarsh,49%,704,44%,53%
+Flank,Koga,Jaguar Falls,48%,770,43%,52%
+Flank,Koga,Serpent Beach,48%,711,43%,52%
+Flank,Koga,Splitstone Quarry,48%,703,43%,52%
+Flank,Koga,Timber Mill,48%,625,42%,53%
+Flank,Koga,Stone Keep,47%,654,41%,52%
+Flank,Koga,Ascension Peak,46%,696,41%,50%
+Flank,Lex,Frozen Guard,50%,730,45%,54%
+Flank,Lex,Bazaar,47%,662,42%,51%
+Flank,Lex,Brightmarsh,47%,657,42%,51%
+Flank,Lex,Ascension Peak,47%,657,42%,51%
+Flank,Lex,Timber Mill,47%,531,41%,52%
+Flank,Lex,Fish Market,46%,668,41%,50%
+Flank,Lex,Stone Keep,46%,634,40%,51%
+Flank,Lex,Splitstone Quarry,46%,574,40%,51%
+Flank,Lex,Serpent Beach,46%,523,40%,51%
+Flank,Lex,Jaguar Falls,45%,754,40%,49%
+Flank,Lex,Warder's Gate,45%,665,40%,49%
+Flank,Lex,Shattered Desert,42%,791,37%,46%
+Flank,Maeve,Fish Market,51%,"1,280",47%,54%
+Flank,Maeve,Serpent Beach,51%,"1,250",47%,54%
+Flank,Maeve,Timber Mill,50%,"1,340",46%,53%
+Flank,Maeve,Bazaar,49%,"1,121",45%,52%
+Flank,Maeve,Frozen Guard,49%,"1,112",45%,52%
+Flank,Maeve,Shattered Desert,49%,"1,104",45%,52%
+Flank,Maeve,Stone Keep,48%,"1,213",44%,51%
+Flank,Maeve,Warder's Gate,48%,"1,199",44%,51%
+Flank,Maeve,Jaguar Falls,48%,"1,193",44%,51%
+Flank,Maeve,Brightmarsh,48%,"1,158",44%,51%
+Flank,Maeve,Ascension Peak,48%,"1,145",44%,51%
+Flank,Maeve,Splitstone Quarry,47%,"1,281",43%,50%
+Flank,Moji,Jaguar Falls,55%,590,49%,60%
+Flank,Moji,Bazaar,53%,524,47%,58%
+Flank,Moji,Shattered Desert,52%,407,45%,58%
+Flank,Moji,Brightmarsh,51%,541,45%,56%
+Flank,Moji,Stone Keep,51%,413,44%,57%
+Flank,Moji,Ascension Peak,50%,432,43%,56%
+Flank,Moji,Frozen Guard,49%,425,42%,55%
+Flank,Moji,Serpent Beach,49%,362,42%,55%
+Flank,Moji,Fish Market,47%,328,39%,54%
+Flank,Moji,Warder's Gate,45%,385,38%,51%
+Flank,Moji,Splitstone Quarry,45%,331,38%,51%
+Flank,Moji,Timber Mill,45%,296,37%,52%
+Flank,Skye,Frozen Guard,51%,660,46%,55%
+Flank,Skye,Shattered Desert,49%,604,43%,54%
+Flank,Skye,Warder's Gate,48%,594,42%,53%
+Flank,Skye,Stone Keep,48%,568,42%,53%
+Flank,Skye,Bazaar,47%,705,42%,51%
+Flank,Skye,Jaguar Falls,47%,650,41%,52%
+Flank,Skye,Fish Market,47%,600,41%,52%
+Flank,Skye,Brightmarsh,46%,652,40%,51%
+Flank,Skye,Ascension Peak,45%,635,39%,50%
+Flank,Skye,Splitstone Quarry,45%,592,39%,50%
+Flank,Skye,Serpent Beach,45%,508,39%,50%
+Flank,Skye,Timber Mill,42%,568,36%,47%
+Flank,Talus,Stone Keep,53%,309,45%,60%
+Flank,Talus,Ascension Peak,51%,344,44%,57%
+Flank,Talus,Jaguar Falls,49%,371,42%,55%
+Flank,Talus,Warder's Gate,48%,329,40%,55%
+Flank,Talus,Fish Market,48%,319,40%,55%
+Flank,Talus,Shattered Desert,47%,334,40%,53%
+Flank,Talus,Frozen Guard,47%,330,39%,54%
+Flank,Talus,Timber Mill,47%,242,38%,55%
+Flank,Talus,Brightmarsh,44%,338,37%,50%
+Flank,Talus,Splitstone Quarry,44%,273,36%,51%
+Flank,Talus,Serpent Beach,44%,268,36%,51%
+Flank,Talus,Bazaar,42%,350,35%,48%
+Flank,Vatu,Timber Mill,52%,812,47%,56%
+Flank,Vatu,Splitstone Quarry,51%,869,46%,55%
+Flank,Vatu,Warder's Gate,51%,771,46%,55%
+Flank,Vatu,Fish Market,50%,777,45%,54%
+Flank,Vatu,Ascension Peak,50%,765,45%,54%
+Flank,Vatu,Bazaar,49%,780,44%,53%
+Flank,Vatu,Serpent Beach,48%,861,43%,52%
+Flank,Vatu,Brightmarsh,47%,802,42%,51%
+Flank,Vatu,Frozen Guard,47%,781,42%,51%
+Flank,Vatu,Jaguar Falls,46%,837,41%,50%
+Flank,Vatu,Shattered Desert,45%,744,40%,49%
+Flank,Vatu,Stone Keep,44%,796,39%,48%
+Flank,Vora,Timber Mill,52%,"1,365",48%,55%
+Flank,Vora,Brightmarsh,52%,"1,235",48%,55%
+Flank,Vora,Serpent Beach,51%,"1,401",47%,54%
+Flank,Vora,Ascension Peak,51%,"1,332",47%,54%
+Flank,Vora,Fish Market,50%,"1,403",46%,53%
+Flank,Vora,Stone Keep,50%,"1,374",46%,53%
+Flank,Vora,Splitstone Quarry,50%,"1,367",46%,53%
+Flank,Vora,Warder's Gate,50%,"1,328",46%,53%
+Flank,Vora,Shattered Desert,50%,"1,286",46%,53%
+Flank,Vora,Jaguar Falls,48%,"1,222",44%,51%
+Flank,Vora,Bazaar,48%,"1,214",44%,51%
+Flank,Vora,Frozen Guard,47%,"1,262",43%,50%
+Flank,Zhin,Shattered Desert,52%,"1,498",48%,55%
+Flank,Zhin,Bazaar,52%,"1,476",48%,55%
+Flank,Zhin,Stone Keep,52%,"1,449",48%,55%
+Flank,Zhin,Ascension Peak,52%,"1,443",48%,55%
+Flank,Zhin,Frozen Guard,52%,"1,429",48%,55%
+Flank,Zhin,Jaguar Falls,51%,"1,606",47%,54%
+Flank,Zhin,Warder's Gate,51%,"1,490",47%,54%
+Flank,Zhin,Brightmarsh,51%,"1,372",47%,54%
+Flank,Zhin,Fish Market,51%,"1,345",47%,54%
+Flank,Zhin,Timber Mill,50%,"1,162",46%,53%
+Flank,Zhin,Serpent Beach,48%,"1,245",44%,51%
+Flank,Zhin,Splitstone Quarry,47%,"1,303",43%,50%
+Frontline,Ash,Ascension Peak,52%,"2,093",49%,54%
+Frontline,Ash,Fish Market,51%,"2,422",48%,53%
+Frontline,Ash,Jaguar Falls,51%,"2,181",48%,53%
+Frontline,Ash,Warder's Gate,51%,"2,142",48%,53%
+Frontline,Ash,Frozen Guard,51%,"2,112",48%,53%
+Frontline,Ash,Serpent Beach,51%,"2,049",48%,53%
+Frontline,Ash,Shattered Desert,50%,"2,194",47%,52%
+Frontline,Ash,Stone Keep,50%,"2,168",47%,52%
+Frontline,Ash,Brightmarsh,50%,"2,115",47%,52%
+Frontline,Ash,Bazaar,50%,"2,082",47%,52%
+Frontline,Ash,Splitstone Quarry,49%,"1,924",46%,51%
+Frontline,Ash,Timber Mill,49%,"1,884",46%,51%
+Frontline,Atlas,Jaguar Falls,48%,620,42%,53%
+Frontline,Atlas,Bazaar,48%,597,42%,53%
+Frontline,Atlas,Brightmarsh,48%,567,42%,53%
+Frontline,Atlas,Serpent Beach,48%,557,42%,53%
+Frontline,Atlas,Frozen Guard,47%,606,41%,52%
+Frontline,Atlas,Timber Mill,47%,596,41%,52%
+Frontline,Atlas,Fish Market,47%,567,41%,52%
+Frontline,Atlas,Warder's Gate,46%,572,40%,51%
+Frontline,Atlas,Splitstone Quarry,45%,570,39%,50%
+Frontline,Atlas,Shattered Desert,43%,581,37%,48%
+Frontline,Atlas,Ascension Peak,42%,587,36%,47%
+Frontline,Atlas,Stone Keep,42%,564,36%,47%
+Frontline,Barik,Ascension Peak,53%,"3,224",50%,55%
+Frontline,Barik,Shattered Desert,52%,"3,231",49%,54%
+Frontline,Barik,Warder's Gate,52%,"3,191",49%,54%
+Frontline,Barik,Bazaar,51%,"3,290",48%,53%
+Frontline,Barik,Splitstone Quarry,51%,"3,277",48%,53%
+Frontline,Barik,Stone Keep,51%,"3,275",48%,53%
+Frontline,Barik,Serpent Beach,51%,"3,264",48%,53%
+Frontline,Barik,Fish Market,50%,"3,221",47%,52%
+Frontline,Barik,Timber Mill,50%,"3,125",47%,52%
+Frontline,Barik,Jaguar Falls,49%,"3,316",46%,51%
+Frontline,Barik,Brightmarsh,49%,"3,298",46%,51%
+Frontline,Barik,Frozen Guard,49%,"3,237",46%,51%
+Frontline,Fernando,Jaguar Falls,56%,"1,994",54%,59%
+Frontline,Fernando,Bazaar,56%,"1,871",54%,59%
+Frontline,Fernando,Splitstone Quarry,56%,"2,054",53%,58%
+Frontline,Fernando,Stone Keep,56%,"1,982",53%,58%
+Frontline,Fernando,Ascension Peak,56%,"1,933",53%,58%
+Frontline,Fernando,Shattered Desert,56%,"1,924",53%,58%
+Frontline,Fernando,Serpent Beach,56%,"1,895",53%,58%
+Frontline,Fernando,Fish Market,55%,"1,968",52%,57%
+Frontline,Fernando,Frozen Guard,54%,"1,947",51%,56%
+Frontline,Fernando,Warder's Gate,54%,"1,927",51%,56%
+Frontline,Fernando,Brightmarsh,53%,"1,989",50%,55%
+Frontline,Fernando,Timber Mill,53%,"1,965",50%,55%
+Frontline,Inara,Brightmarsh,53%,"3,107",50%,55%
+Frontline,Inara,Splitstone Quarry,52%,"2,984",49%,54%
+Frontline,Inara,Serpent Beach,52%,"2,961",49%,54%
+Frontline,Inara,Stone Keep,51%,"2,956",48%,53%
+Frontline,Inara,Timber Mill,51%,"2,635",48%,53%
+Frontline,Inara,Jaguar Falls,50%,"3,164",47%,52%
+Frontline,Inara,Warder's Gate,50%,"2,909",47%,52%
+Frontline,Inara,Shattered Desert,50%,"2,882",47%,52%
+Frontline,Inara,Ascension Peak,50%,"2,871",47%,52%
+Frontline,Inara,Frozen Guard,50%,"2,853",47%,52%
+Frontline,Inara,Bazaar,49%,"2,901",46%,51%
+Frontline,Inara,Fish Market,49%,"2,709",46%,51%
+Frontline,Khan,Fish Market,52%,"2,338",49%,54%
+Frontline,Khan,Timber Mill,50%,"2,225",47%,52%
+Frontline,Khan,Warder's Gate,49%,"2,375",46%,51%
+Frontline,Khan,Jaguar Falls,48%,"2,587",45%,50%
+Frontline,Khan,Brightmarsh,48%,"2,503",45%,50%
+Frontline,Khan,Ascension Peak,48%,"2,478",45%,50%
+Frontline,Khan,Splitstone Quarry,48%,"2,466",45%,50%
+Frontline,Khan,Serpent Beach,48%,"2,415",45%,50%
+Frontline,Khan,Frozen Guard,48%,"2,413",45%,50%
+Frontline,Khan,Stone Keep,47%,"2,539",44%,49%
+Frontline,Khan,Shattered Desert,45%,"2,282",42%,47%
+Frontline,Khan,Bazaar,44%,"2,286",41%,46%
+Frontline,Makoa,Bazaar,46%,"2,218",43%,48%
+Frontline,Makoa,Splitstone Quarry,45%,"2,210",42%,47%
+Frontline,Makoa,Frozen Guard,45%,"2,161",42%,47%
+Frontline,Makoa,Shattered Desert,45%,"2,131",42%,47%
+Frontline,Makoa,Jaguar Falls,44%,"2,275",41%,46%
+Frontline,Makoa,Stone Keep,43%,"2,249",40%,45%
+Frontline,Makoa,Brightmarsh,43%,"2,239",40%,45%
+Frontline,Makoa,Ascension Peak,43%,"2,202",40%,45%
+Frontline,Makoa,Warder's Gate,43%,"2,157",40%,45%
+Frontline,Makoa,Timber Mill,43%,"1,864",40%,45%
+Frontline,Makoa,Fish Market,42%,"2,029",39%,44%
+Frontline,Makoa,Serpent Beach,41%,"2,101",38%,43%
+Frontline,Raum,Timber Mill,52%,"1,029",48%,55%
+Frontline,Raum,Brightmarsh,52%,"1,017",47%,56%
+Frontline,Raum,Bazaar,51%,"1,131",47%,54%
+Frontline,Raum,Jaguar Falls,51%,"1,105",47%,54%
+Frontline,Raum,Ascension Peak,51%,"1,094",47%,54%
+Frontline,Raum,Warder's Gate,50%,"1,083",46%,53%
+Frontline,Raum,Frozen Guard,50%,"1,072",46%,53%
+Frontline,Raum,Shattered Desert,50%,"1,070",46%,53%
+Frontline,Raum,Stone Keep,50%,"1,070",46%,53%
+Frontline,Raum,Fish Market,49%,"1,066",45%,52%
+Frontline,Raum,Splitstone Quarry,48%,"1,079",44%,51%
+Frontline,Raum,Serpent Beach,48%,"1,040",44%,51%
+Frontline,Ruckus,Timber Mill,50%,"1,126",46%,53%
+Frontline,Ruckus,Serpent Beach,49%,"1,023",44%,53%
+Frontline,Ruckus,Splitstone Quarry,48%,"1,109",44%,51%
+Frontline,Ruckus,Stone Keep,47%,973,42%,51%
+Frontline,Ruckus,Bazaar,47%,822,42%,51%
+Frontline,Ruckus,Frozen Guard,47%,816,42%,51%
+Frontline,Ruckus,Warder's Gate,45%,906,40%,49%
+Frontline,Ruckus,Shattered Desert,45%,833,40%,49%
+Frontline,Ruckus,Jaguar Falls,45%,801,40%,49%
+Frontline,Ruckus,Brightmarsh,44%,882,39%,48%
+Frontline,Ruckus,Fish Market,44%,864,39%,48%
+Frontline,Ruckus,Ascension Peak,44%,813,39%,48%
+Frontline,Terminus,Frozen Guard,54%,"1,253",50%,57%
+Frontline,Terminus,Bazaar,53%,"1,361",49%,56%
+Frontline,Terminus,Shattered Desert,53%,"1,321",49%,56%
+Frontline,Terminus,Jaguar Falls,53%,"1,318",49%,56%
+Frontline,Terminus,Serpent Beach,52%,"1,316",48%,55%
+Frontline,Terminus,Stone Keep,52%,"1,298",48%,55%
+Frontline,Terminus,Timber Mill,52%,"1,292",48%,55%
+Frontline,Terminus,Fish Market,52%,"1,281",48%,55%
+Frontline,Terminus,Warder's Gate,51%,"1,337",47%,54%
+Frontline,Terminus,Brightmarsh,51%,"1,328",47%,54%
+Frontline,Terminus,Splitstone Quarry,49%,"1,359",45%,52%
+Frontline,Terminus,Ascension Peak,48%,"1,278",44%,51%
+Frontline,Torvald,Jaguar Falls,53%,467,47%,58%
+Frontline,Torvald,Brightmarsh,51%,370,44%,57%
+Frontline,Torvald,Warder's Gate,50%,464,44%,55%
+Frontline,Torvald,Fish Market,49%,681,44%,53%
+Frontline,Torvald,Splitstone Quarry,50%,339,43%,56%
+Frontline,Torvald,Serpent Beach,49%,444,42%,55%
+Frontline,Torvald,Ascension Peak,49%,425,42%,55%
+Frontline,Torvald,Bazaar,49%,371,42%,55%
+Frontline,Torvald,Frozen Guard,48%,438,41%,54%
+Frontline,Torvald,Timber Mill,48%,370,41%,54%
+Frontline,Torvald,Stone Keep,47%,412,40%,53%
+Frontline,Torvald,Shattered Desert,45%,436,38%,51%
+Frontline,Yagorath,Brightmarsh,61%,738,56%,65%
+Frontline,Yagorath,Stone Keep,61%,698,56%,65%
+Frontline,Yagorath,Warder's Gate,61%,681,56%,65%
+Frontline,Yagorath,Bazaar,59%,715,54%,63%
+Frontline,Yagorath,Ascension Peak,59%,686,54%,63%
+Frontline,Yagorath,Serpent Beach,57%,690,53%,62%
+Frontline,Yagorath,Jaguar Falls,56%,749,52%,61%
+Frontline,Yagorath,Splitstone Quarry,56%,699,52%,61%
+Frontline,Yagorath,Frozen Guard,56%,740,51%,60%
+Frontline,Yagorath,Shattered Desert,56%,727,51%,60%
+Frontline,Yagorath,Fish Market,55%,684,50%,59%
+Frontline,Yagorath,Timber Mill,52%,615,46%,57%
+Support,Corvus,Splitstone Quarry,53%,626,47%,58%
+Support,Corvus,Timber Mill,51%,686,46%,55%
+Support,Corvus,Serpent Beach,50%,596,44%,55%
+Support,Corvus,Stone Keep,50%,577,44%,55%
+Support,Corvus,Warder's Gate,50%,537,44%,55%
+Support,Corvus,Frozen Guard,50%,527,44%,55%
+Support,Corvus,Fish Market,49%,635,43%,54%
+Support,Corvus,Shattered Desert,48%,570,42%,53%
+Support,Corvus,Ascension Peak,46%,550,40%,51%
+Support,Corvus,Jaguar Falls,46%,542,40%,51%
+Support,Corvus,Bazaar,46%,541,40%,51%
+Support,Corvus,Brightmarsh,45%,498,39%,50%
+Support,Furia,Serpent Beach,53%,1382,49%,56%
+Support,Furia,Splitstone Quarry,52%,1457,48%,55%
+Support,Furia,Bazaar,52%,1439,48%,55%
+Support,Furia,Fish Market,52%,1389,48%,55%
+Support,Furia,Shattered Desert,51%,1415,47%,54%
+Support,Furia,Stone Keep,50%,1489,46%,53%
+Support,Furia,Warder's Gate,50%,1416,46%,53%
+Support,Furia,Ascension Peak,50%,1405,46%,53%
+Support,Furia,Timber Mill,50%,1275,46%,53%
+Support,Furia,Jaguar Falls,49%,1508,45%,52%
+Support,Furia,Frozen Guard,49%,1408,45%,52%
+Support,Furia,Brightmarsh,48%,1513,44%,51%
+Support,Grohk,Ascension Peak,54%,903,49%,58%
+Support,Grohk,Jaguar Falls,53%,1064,49%,56%
+Support,Grohk,Stone Keep,53%,809,48%,57%
+Support,Grohk,Brightmarsh,52%,1071,48%,55%
+Support,Grohk,Warder's Gate,51%,864,46%,55%
+Support,Grohk,Bazaar,50%,928,45%,54%
+Support,Grohk,Splitstone Quarry,50%,762,45%,54%
+Support,Grohk,Frozen Guard,49%,913,44%,53%
+Support,Grohk,Shattered Desert,49%,856,44%,53%
+Support,Grohk,Serpent Beach,49%,766,44%,53%
+Support,Grohk,Fish Market,48%,737,43%,52%
+Support,Grohk,Timber Mill,48%,701,43%,52%
+Support,Grover,Jaguar Falls,54%,1745,50%,57%
+Support,Grover,Bazaar,54%,1591,50%,57%
+Support,Grover,Stone Keep,54%,1576,50%,57%
+Support,Grover,Brightmarsh,53%,1849,50%,55%
+Support,Grover,Shattered Desert,53%,1445,49%,56%
+Support,Grover,Timber Mill,53%,1293,49%,56%
+Support,Grover,Ascension Peak,52%,1435,48%,55%
+Support,Grover,Frozen Guard,52%,1413,48%,55%
+Support,Grover,Serpent Beach,52%,1380,48%,55%
+Support,Grover,Warder's Gate,52%,1352,48%,55%
+Support,Grover,Splitstone Quarry,51%,1389,47%,54%
+Support,Grover,Fish Market,49%,1306,45%,52%
+Support,Io,Shattered Desert,57%,1165,54%,61%
+Support,Io,Frozen Guard,56%,1120,53%,60%
+Support,Io,Splitstone Quarry,56%,1108,52%,59%
+Support,Io,Bazaar,56%,1085,52%,59%
+Support,Io,Fish Market,55%,1280,51%,58%
+Support,Io,Jaguar Falls,54%,1191,50%,57%
+Support,Io,Serpent Beach,54%,1184,50%,57%
+Support,Io,Warder's Gate,54%,1156,50%,57%
+Support,Io,Ascension Peak,54%,1140,50%,57%
+Support,Io,Timber Mill,54%,1103,50%,57%
+Support,Io,Brightmarsh,54%,1059,50%,57%
+Support,Io,Stone Keep,53%,1128,49%,56%
+Support,Jenos,Frozen Guard,50%,1166,46%,53%
+Support,Jenos,Fish Market,49%,1175,45%,52%
+Support,Jenos,Brightmarsh,49%,1129,45%,52%
+Support,Jenos,Timber Mill,48%,1239,44%,51%
+Support,Jenos,Jaguar Falls,48%,1233,44%,51%
+Support,Jenos,Serpent Beach,48%,1193,44%,51%
+Support,Jenos,Shattered Desert,48%,1157,44%,51%
+Support,Jenos,Bazaar,47%,1271,43%,50%
+Support,Jenos,Splitstone Quarry,47%,1177,43%,50%
+Support,Jenos,Ascension Peak,47%,1139,43%,50%
+Support,Jenos,Warder's Gate,47%,1103,43%,50%
+Support,Jenos,Stone Keep,46%,1222,42%,49%
+Support,Mal'Damba,Warder's Gate,47%,1805,43%,50%
+Support,Mal'Damba,Brightmarsh,46%,1866,43%,48%
+Support,Mal'Damba,Jaguar Falls,46%,1865,43%,48%
+Support,Mal'Damba,Frozen Guard,46%,1841,43%,48%
+Support,Mal'Damba,Ascension Peak,46%,1774,42%,49%
+Support,Mal'Damba,Stone Keep,46%,1757,42%,49%
+Support,Mal'Damba,Splitstone Quarry,46%,1746,42%,49%
+Support,Mal'Damba,Timber Mill,46%,1545,42%,49%
+Support,Mal'Damba,Serpent Beach,45%,1760,41%,48%
+Support,Mal'Damba,Fish Market,45%,1760,41%,48%
+Support,Mal'Damba,Bazaar,45%,1737,41%,48%
+Support,Mal'Damba,Shattered Desert,43%,1722,39%,46%
+Support,Pip,Stone Keep,50%,361,43%,56%
+Support,Pip,Warder's Gate,49%,311,41%,56%
+Support,Pip,Splitstone Quarry,48%,370,41%,54%
+Support,Pip,Serpent Beach,48%,331,40%,55%
+Support,Pip,Brightmarsh,46%,347,39%,52%
+Support,Pip,Shattered Desert,46%,300,38%,53%
+Support,Pip,Bazaar,46%,299,38%,53%
+Support,Pip,Fish Market,46%,298,38%,53%
+Support,Pip,Ascension Peak,45%,310,37%,52%
+Support,Pip,Frozen Guard,45%,294,37%,52%
+Support,Pip,Jaguar Falls,44%,356,37%,50%
+Support,Pip,Timber Mill,44%,327,36%,51%
+Support,Seris,Ascension Peak,50%,3700,47%,52%
+Support,Seris,Warder's Gate,49%,3789,46%,51%
+Support,Seris,Shattered Desert,49%,3761,46%,51%
+Support,Seris,Jaguar Falls,49%,3755,46%,51%
+Support,Seris,Stone Keep,48%,3817,45%,50%
+Support,Seris,Brightmarsh,48%,3747,45%,50%
+Support,Seris,Frozen Guard,48%,3702,45%,50%
+Support,Seris,Bazaar,48%,3663,45%,50%
+Support,Seris,Timber Mill,48%,3660,45%,50%
+Support,Seris,Splitstone Quarry,47%,3860,44%,49%
+Support,Seris,Fish Market,47%,3745,44%,49%
+Support,Seris,Serpent Beach,47%,3734,44%,49%
+Support,Ying,Fish Market,54%,1148,50%,57%
+Support,Ying,Splitstone Quarry,51%,1141,47%,54%
+Support,Ying,Serpent Beach,51%,1140,47%,54%
+Support,Ying,Timber Mill,51%,1109,47%,54%
+Support,Ying,Stone Keep,51%,1108,47%,54%
+Support,Ying,Bazaar,49%,1108,45%,52%
+Support,Ying,Brightmarsh,49%,1067,45%,52%
+Support,Ying,Warder's Gate,48%,1165,44%,51%
+Support,Ying,Ascension Peak,48%,1157,44%,51%
+Support,Ying,Shattered Desert,48%,1101,44%,51%
+Support,Ying,Jaguar Falls,46%,1124,42%,49%
+Support,Ying,Frozen Guard,46%,1095,42%,49%
