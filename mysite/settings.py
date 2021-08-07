@@ -141,3 +141,51 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+# LOGGING
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'loggers': {
+        'root':{
+            'handlers':['file', 'console',],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'stats.views':{
+            'handlers':['file', 'console',],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'blog.views':{
+            'handlers':['file', 'console',],
+            'level': 'DEBUG',
+            'propagate': True,
+        }
+    },
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': 'errors.log',
+            'formatter': 'verbose',
+        },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+            'filters': ['require_debug_true'],
+        },
+    },
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module}.py {message}',
+            'style': '{',
+        },
+    },
+    'filters': {
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+    },
+}
