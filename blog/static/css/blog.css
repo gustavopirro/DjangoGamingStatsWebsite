@@ -3,6 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+select>option{
+    color: black !important;
+}
+
 body{ 
     min-height: 100vh; 
     margin: 0; 

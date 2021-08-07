@@ -15,7 +15,6 @@ import logging
 
 
 logger = logging.getLogger(__name__)
-
 @login_required
 def user_edit(request, pk):
     UserModel = get_user_model()
@@ -34,7 +33,6 @@ def user_edit(request, pk):
 def user_list(request):
     UserModel = get_user_model()
     users = UserModel.objects.all().order_by('birth_date')
-
     return render(request, 'blog/users_list.html', {'users': users})
 
 @login_required
@@ -47,28 +45,31 @@ def user_remove(request, pk):
 
 def post_list(request): 
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-
-    logger.debug("Post found")
+    if not posts:
+        logger.error("Post list is empty")
     return render(request, 'blog/post_list.html', {'posts':posts})
-    # else:
-    #     logger.error("Post list not found")
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
+    if not post:
+        logger.info(f'Post does id:{pk} not exist')
     return render(request, 'blog/post_detail.html', {'post': post})
 
 @login_required
 def post_new(request):
-     if request.method == "POST":
+    if request.method == "POST":
          form = PostForm(request.POST)
          if form.is_valid():
-             post = form.save(commit=False)
-             post.author = request.user
-             post.save()
-             return redirect('post_detail', pk=post.pk)
-     else:
-         form = PostForm()
-     return render(request, 'blog/post_edit.html', {'form': form})
+            post = form.save(commit=False)
+            post.author = request.user
+            try:
+                post.save()
+            except:
+                logger.error('Something went wrong while trying to create new post')
+            return redirect('post_detail', pk=post.pk)
+    else:
+        form = PostForm()
+    return render(request, 'blog/post_edit.html', {'form': form})
 
 @login_required
 def post_edit(request, pk):

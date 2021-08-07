@@ -117,7 +117,7 @@ LANGUAGE_CODE = 'en-US'
 
 TIME_ZONE = 'America/Sao_Paulo'
 
-TIME_INPUT_FORMATS = '%d/%m/%Y'
+TIME_INPUT_FORMATS = ('%d/%m/%Y',)
 
 USE_I18N = True
 

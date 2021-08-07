@@ -2,39 +2,65 @@ from stats.models import Champion, ChampionCard, ChampionMap
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 import csv, requests as rs
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
+from django.core import serializers
+import logging
+
+logger = logging.getLogger(__name__)
+def champion_page(request):
+    return render(request, 'stats/champion_stats.html') 
+
+def card_page(request):
+    return render(request, 'stats/card_stats.html')
+
+def map_page(request):
+    return render(request, 'stats/map_stats.html')  
 
 def get_map_stats(request):
     stats = ChampionMap.objects.all()
-
-    return render(
-        request, 'stats/map_stats.html', 
-        {'map_stats':stats,
-         })    
+    if not stats:
+        logger.error('Could not retrieve Champion map data')
+    json_data = []
+    for i in stats:
+        champion_stat = []
+        champion_stat.append(i.champion.champion_class.title())
+        champion_stat.append(i.champion.formated_name())
+        champion_stat.append(i.map_name_formated())
+        champion_stat.append(f'{i.winrate}%')
+        champion_stat.append(i.match_count)
+        json_data.append(champion_stat)
+    return JsonResponse({'map_stats':json_data})
 
 def get_card_stats(request):
     stats = ChampionCard.objects.all()
+    if not stats:
+        logger.error('Could not retrieve Champion card data')
+    json_data = []
+    for i in stats:
+        champion_stat = []
+        champion_stat.append(i.champion.formated_name())
+        champion_stat.append(i.talent_name_formated())
+        champion_stat.append(i.card_name_formated())
+        champion_stat.append(i.card_level)
+        champion_stat.append(f'{i.winrate}%')
+        champion_stat.append(i.match_count)
+        json_data.append(champion_stat)
+    return JsonResponse({'card_stats':json_data})
 
-    return render(
-        request, 'stats/card_stats.html', 
-        {'card_stats':stats,
-         })    
-
-def get_champion_stats(request, class_filter='All', sort_type='Winrate'):
-    stats = Champion.objects.order_by('-winrate')
-
-    if sort_type != 'Winrate':
-        stats = Champion.objects.filter().order_by(f'-{sort_type}')
-
-    if class_filter != 'All':
-        stats = Champion.objects.filter(champion_class=class_filter).order_by('-winrate')
-
-    
-    return render(
-        request, 'stats/champion_stats.html', 
-        {'champion_stats':stats,
-         })
-
+def get_champion_stats(request):
+    stats = Champion.objects.all()
+    if not stats:
+        logger.error('Could not retrieve Champion data')
+    json_data = []
+    for i in stats:
+        champion_stat = []
+        champion_stat.append(i.champion_class.title())
+        champion_stat.append(i.formated_name())
+        champion_stat.append(f'{i.winrate}%')
+        champion_stat.append(i.talent)
+        champion_stat.append(i.match_count)
+        json_data.append(champion_stat)
+    return JsonResponse({'champion_stats':json_data})
 @login_required
 def create_winrate_per_champion_db(request):
     if Champion.objects.all():
