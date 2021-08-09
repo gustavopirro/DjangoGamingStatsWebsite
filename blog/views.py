@@ -1,20 +1,22 @@
-from django.conf import settings
-from django.contrib.auth.forms import UserModel
-from django.db import models
-from django.http import request
-from blog.models import PostReaction
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponse
-from django.contrib.auth import get_user_model, login
+from django.contrib.auth import get_user_model
+from django.contrib import messages
 
+from blog.models import PostReaction
 from .forms import Post, PostForm, CommentForm, Comment
 from users.forms import CustomUserChangeForm
+
 import logging
 
 
 logger = logging.getLogger(__name__)
+
+
+######### USER METHODS #########
+
+
 @login_required
 def user_edit(request, pk):
     UserModel = get_user_model()
@@ -28,25 +30,39 @@ def user_edit(request, pk):
         form = CustomUserChangeForm(instance=user)
     return render(request, 'blog/user_edit.html', {'form': form})
 
-
 @login_required
 def user_list(request):
     UserModel = get_user_model()
-    users = UserModel.objects.all().order_by('birth_date')
+    try:
+        users = UserModel.objects.all().order_by('birth_date')
+    except:
+        logger.error('Could not get user')
+
     return render(request, 'blog/users_list.html', {'users': users})
 
 @login_required
 def user_remove(request, pk):
     UserModel = get_user_model()
     user = get_object_or_404(UserModel, pk=pk)
-    user.delete()
+
+    try:
+        user.delete()
+        messages.success(request, 'User deleted')
+    except:
+        logger.error('Could not delete user')
+        messages.error('Could not delete user')
 
     return redirect('user_list')
 
-def post_list(request): 
-    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    if not posts:
-        logger.error("Post list is empty")
+
+######### POST METHODS #########
+
+
+def post_list(request):
+    try:
+        posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    except:
+        logger.error("Could not retrieve post list")
     return render(request, 'blog/post_list.html', {'posts':posts})
 
 def post_detail(request, pk):
@@ -64,8 +80,10 @@ def post_new(request):
             post.author = request.user
             try:
                 post.save()
+                messages.success(request, 'Post created')
             except:
                 logger.error('Something went wrong while trying to create new post')
+                messages.error('Could not create post')
             return redirect('post_detail', pk=post.pk)
     else:
         form = PostForm()
@@ -102,6 +120,10 @@ def post_remove(request, pk):
     post.delete()
     return redirect('post_list')
 
+
+######### COMMENT METHODS #########
+
+
 def add_comment_to_post(request, pk):
     post = get_object_or_404(Post, pk=pk)
     if request.method == "POST":
@@ -126,6 +148,10 @@ def comment_remove(request, pk):
     comment = get_object_or_404(Comment, pk=pk)
     comment.delete()
     return redirect('post_detail', pk=comment.post.pk)
+
+
+######### REACTION METHODS #########
+
 
 @login_required
 def add_reaction(request,reaction_type, pk):

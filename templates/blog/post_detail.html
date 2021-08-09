@@ -3,6 +3,16 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
+
+{% for mensagem in messages %}
+<div class="alert {{mensagem.tags}} alert-dismissable " role="alert">
+    <button type="button" class="close btn btn-dark" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    {{ mensagem }}
+</div>
+{% endfor %}
+
 <div class="border border-white rounded mb-4 bg-secondary">
     <h2 class="m-4">{{ post.title | title}}</h2>
     {% if post.published_date %}

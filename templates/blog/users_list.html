@@ -1,9 +1,19 @@
 {% extends 'blog/base.html' %}
 {% block content %}
+
+{% for mensagem in messages %}
+<div class="alert {{mensagem.tags}} alert-dismissable " role="alert">
+    <button type="button" class="close btn btn-dark" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    {{ mensagem }}
+</div>
+{% endfor %}
+
 <h2>Users</h2>
 <br />
 {% for user in users %}
-<div class="post">
+<div class="post">    
     <h3>
         {{user.username}} ({{user.email}})
         <small style="margin-left: 15px">

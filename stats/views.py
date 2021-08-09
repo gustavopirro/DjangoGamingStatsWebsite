@@ -9,6 +9,10 @@ import ujson
 
 logger = logging.getLogger(__name__)
 
+
+######### Render Pages #########
+
+
 def champion_page(request):
     return render(request, 'stats/champion_stats.html') 
 
@@ -17,6 +21,11 @@ def card_page(request):
 
 def map_page(request):
     return render(request, 'stats/map_stats.html')  
+
+
+
+######### Get Stats #########
+
 
 def get_map_stats(request):
     stats = ChampionMap.objects.all()
@@ -55,13 +64,10 @@ def get_champion_stats(request):
         json_data.append(champion_stat)
     return JsonResponse({'champion_stats':json_data})
 
-def retrieve_card_data_from_db(request):
-    stats = ChampionCard.objects.all().order_by('id')
-    json_data = []
-    for start, end, total, qs in batch_qs(stats):
-        print("Now processing %s - %s of %s" % (start + 1, end, total))
-        for i in qs:
-            json_data.append({'name': i.champion.formated_name(), 'talent':i.talent_name_formated(), 'card':i.card_name_formated(), 'card_level':i.card_level, 'winrate':i.winrate, 'match_count':i.match_count})
+
+
+######### Create Databases #########
+
 
 @login_required
 def create_winrate_per_champion_db(request):
@@ -129,7 +135,7 @@ def create_winrate_per_map_db(request):
             )
             champion_map_stats.save()
         return HttpResponse("Map database created, run now create_winrate_per_card_db and create_winrate_per_map_db")            
-      
+ 
 def wr_per_champion_data_format(csv_file):
         for row in csv_file:
             row[0] = row[0].lower()
