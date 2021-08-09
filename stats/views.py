@@ -4,8 +4,7 @@ from django.http import HttpResponse, JsonResponse
 from stats.models import Champion, ChampionCard, ChampionMap
 
 import csv, requests as rs
-import logging
-import ujson
+import logging, ujson, pathlib
 
 logger = logging.getLogger(__name__)
 
@@ -43,10 +42,10 @@ def get_map_stats(request):
     return JsonResponse({'map_stats':json_data})
  
 def get_card_stats(request):
-    with open('./card_stats.json', 'r') as f:
-        json_data = ujson.load(f)
-        if not json_data:
-            logger.error('Could not retrieve card stats json data')
+    path = pathlib.Path('card_stats.json').absolute()
+    json_data = ujson.loads(path.read_text())
+    if not json_data:
+        logger.error('Could not retrieve card stats json data')
     return JsonResponse(json_data)
 
 def get_champion_stats(request):
