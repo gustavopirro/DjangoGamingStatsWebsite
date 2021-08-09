@@ -18,12 +18,20 @@
 <script>
     $(document).ready(function () {
         $('#card_table').DataTable({
-            "processing": false,
-            serverSide: false,
+            processing: false,
+            serverSide: true,
             ajax: {
-                url: 'https://gustavopirro.pythonanywhere.com/stats/cardajax',
+                url: 'ajax/',
                 dataSrc: 'card_stats',
             },
+            'columns': [
+                {'data':'name'},
+                {'data':'talent'},
+                {'data':'card'},
+                {'data':'card_level'},
+                {'data':'winrate'},
+                {'data':'match_count'},
+            ],
         });
     });
 

@@ -55,9 +55,9 @@
                                 Stats
                             </button>
                             <div class="dropdown-menu ml-4 " aria-labelledby="dropdownMenuButton" href="/stats">
-                                <a class="dropdown-item" href="/stats/">Champions</a>
-                                <a class="dropdown-item" href="/stats/card">Cards</a>
-                                <a class="dropdown-item" href="/stats/map">Maps</a>
+                                <a class="dropdown-item" href="{% url 'get_champion_page' %}">Champions</a>
+                                <a class="dropdown-item" href="{% url 'get_card_page' %}">Cards</a>
+                                <a class="dropdown-item" href="{% url 'get_map_page' %}">Maps</a>
                             </div>
                         </div>
                         <div class="ml-4 dropdown">
