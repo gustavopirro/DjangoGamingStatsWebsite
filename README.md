@@ -1,2 +1,2 @@
-# djangogirls
- Introduction to Django Framework
+# Django Website/API
+ Website/API made to study Django Framework
